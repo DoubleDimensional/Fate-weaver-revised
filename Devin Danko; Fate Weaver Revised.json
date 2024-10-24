@@ -6,24 +6,26 @@
 				"abbreviation": "FW:R",
 				"full": "Fate Weaver (Revised)",
 				"authors": [
-					"Erikku Blade (Original), Devin Danko (Revised)"
+					"Erikku Blade (Original)",
+					"Devin Danko (Revised)"
 				],
 				"convertedBy": [
 					"Devin Danko"
 				],
-				"url": "https://youtu.be/Wb3UrJjAac4?si=FkiE2jfB5FnLSTfU",
-				"version": "1.0.0",
-				"color": "F363FF"
+				"version": "1.0",
+				"url": "https://github.com/DoubleDimensional/Fate-weaver-revised",
+				"status": "wip",
+				"edition": "classic",
+				"color": "9CD6E4"
 			}
 		],
 		"dateAdded": 1610152284,
-		"dateLastModified": 1729047179
+		"dateLastModified": 1729741446
 	},
 	"class": [
 		{
 			"name": "Fate Weaver",
 			"source": "DDFateWeaver",
-			"edition": "classic",
 			"primaryAbility": [
 				{
 					"cha": true
