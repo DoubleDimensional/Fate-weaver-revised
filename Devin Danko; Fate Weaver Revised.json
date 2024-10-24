@@ -1516,14 +1516,18 @@
 				"You pull the threads of fate away from one creature and hold them, preparing to re-thread them around another creature at a later time.",
 				"Record the number rolled by the triggering creature. The triggering creature must then reroll the {@variantrule D20 Test|XPHB} and use the new roll.",
 				"At any point while you maintain {@status Concentration|XPHB}, you can choose a creature you can see within range (you can choose yourself) that is about to make a {@variantrule D20 Test|XPHB|D20 Test}. Instead of rolling, the creature uses the number previously recorded and the spell ends.",
-				"If the spell ends before you select a second target, you take {@damage 4d6} force damage as the threads of fate tear away from your grasp.",
-				"{@i Created by Caladris Sylvendir Dewthorne}"
+				"If the spell ends before you select a second target, you take {@damage 4d6} force damage as the threads of fate tear away from your grasp."
 			],
 			"source": "DDFateWeaver",
 			"components": {
 				"v": true,
 				"s": true,
 				"m": "a sealed glass ampule with a needle and thread inside"
+			},
+			"fluff": {
+				"entries": [
+					"{@i Created by Caladris Sylvendir Dewthorne}"
+				]
 			}
 		}
 	]
