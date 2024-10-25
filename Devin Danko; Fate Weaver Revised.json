@@ -19,8 +19,8 @@
 				"color": "9CD6E4"
 			}
 		],
-		"dateAdded": 1610152284,
-		"dateLastModified": 1729741460
+		"dateAdded": 1729860695,
+		"dateLastModified": 1729860700
 	},
 	"class": [
 		{
@@ -1461,14 +1461,15 @@
 						"A stone or metal bowl in which things are burnt and patterns are read from the ashes."
 					]
 				},
-				"{@b NEW RULE, WIP:} To use a Divination focus, you perform a ritual over the course of 1 minute. ",
-				"{@b OLD RULE, TO BE REPLACED:} To use a Divination Focus, a 10-minute ritual is initiated, during which you ask a single question. You then make a spellcasting ability check, adding your proficiency bonus. For an accurate reading, a DC 12 check is required, or a DC determined by the DM based on the complexity of the question. More specific inquiries may result in a higher DC. Upon a successful check, you receive a vague response of up to 50 words, or a visual representation that you interpret. You may use a Divination Focus a number of times per day equal to your proficiency bonus, with all uses replenishing at dawn."
+				"To use a Divination focus you perform a ritual over the course of 1 minute. During the ritual, you ask a single question about yourself or another creature concerning an event to occur in the near future. By reading the patterns in the Divination Focus, you receive an omen from the DM hinting toward the most likely outcome of the event. These omens are usually vague and unclear, and it is up to you to interpret their meaning.",
+				"For example, you may ask {@i \"What awaits us at my companion's reunion with their estranged family?\"}, and the DM may answer, {@i \"The card you draw represents tension and unease.\"}"
 			]
 		}
 	],
 	"spell": [
 		{
 			"name": "Dewthorne's Defer Destiny",
+			"source": "DDFateWeaver",
 			"level": 3,
 			"school": "D",
 			"time": [
@@ -1485,6 +1486,11 @@
 					"amount": 60
 				}
 			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a sealed glass ampule with a needle and thread inside"
+			},
 			"duration": [
 				{
 					"type": "timed",
@@ -1495,6 +1501,13 @@
 					},
 					"concentration": true
 				}
+			],
+			"entries": [
+				"You pull the threads of fate away from one creature and hold them, preparing to re-thread them around another creature at a later time.",
+				"Record the number rolled by the triggering creature. The triggering creature must then reroll the {@variantrule D20 Test|XPHB} and use the new roll.",
+				"At any point while you maintain {@status Concentration|XPHB}, you can choose a creature you can see within range (you can choose yourself) that is about to make a {@variantrule D20 Test|XPHB|D20 Test}. Instead of rolling, the creature uses the number previously recorded and the spell ends.",
+				"If the spell ends before you select a second target, you take {@damage 4d6} force damage as the threads of fate tear away from your grasp.",
+				"{@i Created by the (former) wizard Caladris Dewthorne}"
 			],
 			"classes": {
 				"fromClassList": [
@@ -1510,23 +1523,6 @@
 						"name": "Fate Weaver",
 						"source": "DDFateWeaver"
 					}
-				]
-			},
-			"entries": [
-				"You pull the threads of fate away from one creature and hold them, preparing to re-thread them around another creature at a later time.",
-				"Record the number rolled by the triggering creature. The triggering creature must then reroll the {@variantrule D20 Test|XPHB} and use the new roll.",
-				"At any point while you maintain {@status Concentration|XPHB}, you can choose a creature you can see within range (you can choose yourself) that is about to make a {@variantrule D20 Test|XPHB|D20 Test}. Instead of rolling, the creature uses the number previously recorded and the spell ends.",
-				"If the spell ends before you select a second target, you take {@damage 4d6} force damage as the threads of fate tear away from your grasp."
-			],
-			"source": "DDFateWeaver",
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "a sealed glass ampule with a needle and thread inside"
-			},
-			"fluff": {
-				"entries": [
-					"{@i Created by Caladris Sylvendir Dewthorne}"
 				]
 			}
 		}
