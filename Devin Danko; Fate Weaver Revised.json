@@ -595,7 +595,6 @@
 				"Far Step","Far Step|XPHB",
 				"Feather Fall","Feather Fall|XPHB",
 				"Feign Death","Feign Death|XPHB",
-				"Find Familiar","Find Familiar|XPHB",
 				"Find the Path","Find the Path|XPHB",
 				"Find Traps","Find Traps|XPHB",
 				"Fly","Fly|XPHB",
@@ -752,8 +751,8 @@
 			{
 				"type": "entries",
 				"entries": [
-					"Fate Weavers can bend and warp the threads that bind reality together, granting them the power to change the destiny of themselves and everyone around them. These threads, the so-called {@i 'threads of fate'}, form the underlying structure of the multiverse. Some represent creatures, places, or objects and tell the stories of their journeys through reality, while others represent the bonds between those things. They intertwine and influence each other’s paths as time marches from future to present to past.",
-					"The past is a tightly woven tapestry—an impossibly intricate ledger of {@i everything} that has ever happened. The future is a web of possibility—a forest of branching threads that represent every possible outcome simultaneously. The present is where a Fate Weaver does their work: tugging the threads to favor branches that realize their desires and avoid those that spell doom.",
+					"Fate Weavers can bend and warp the threads that bind all of reality together, granting them the power to change the destiny of themselves and everyone around them. These threads, the so-called {@i 'threads of fate'}, form the underlying structure of the multiverse. Some represent creatures, places, or objects and tell the stories of their journeys through reality, while others represent the bonds between those things. They intertwine and influence each other’s paths as time marches from future to present to past.",
+					"The past is a tightly woven tapestry—an impossibly intricate ledger of {@i everything} that has ever happened. The future is a web of possibility—a forest of branching threads that represent every possible outcome simultaneously. The present is where a Fate Weaver does their work: tugging at the threads to favor branches that realize their desires and avoid those that spell doom.",
 					"Fate Weavers are so rare as to be practically unheard of, and they can come about in many ways. Some are simply gifted from birth, some become connected to the threads through a profound act of magic, and some are granted knowledge through contact with a being of immense power. Whatever their origin, most Fate Weavers find that dodging the call to adventure is futile. After all, it’s hard to avoid destiny when you’re the one pulling the strings."
 					]
 				}
@@ -768,7 +767,7 @@
 			"classSource": "DDFateWeaver",
 			"level": 1,
 			"entries": [
-				"By manipulating the threads that hold the world together, you can cast spells. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Fate Weaver spells, which appear in the {@filter Fate Weaver spell list|spells|class=Fate Weaver (FW:R)} later in the class's description.",
+				"By manipulating the threads of fate, you can cast spells. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Fate Weaver spells, which appear in the {@filter Fate Weaver spell list|spells|class=Fate Weaver (FW:R)} later in the class's description.",
 				{
 					"type": "entries",
 					"entries": [
@@ -1043,8 +1042,8 @@
 	],
 	"subclass": [
 		{
-			"name": "Aspect of The Vizier",
-			"shortName": "The Vizier",
+			"name": "The Oracle",
+			"shortName": "The Oracle",
 			"source": "DDFateWeaver",
 			"subclassSpells": [
 				"Detect Magic|XPHB",
@@ -1083,21 +1082,21 @@
 				}
 			],
 			"subclassFeatures": [
-				"Aspect of The Vizier|Fate Weaver|DDFateWeaver|The Vizier|DDFateWeaver|3",
-				"Shared Insight|Fate Weaver|DDFateWeaver|The Vizier|DDFateWeaver|6",
-				"Oracular Judgment|Fate Weaver|DDFateWeaver|The Vizier|DDFateWeaver|10",
-				"Precognitive Reflex|Fate Weaver|DDFateWeaver|The Vizier|DDFateWeaver|14",
-				"Paragon of Prophecy|Fate Weaver|DDFateWeaver|The Vizier|DDFateWeaver|18"
+				"The Oracle|Fate Weaver|DDFateWeaver|The Oracle|DDFateWeaver|3",
+				"Shared Insight|Fate Weaver|DDFateWeaver|The Oracle|DDFateWeaver|6",
+				"Prophetic Judgment|Fate Weaver|DDFateWeaver|The Oracle|DDFateWeaver|10",
+				"Precognitive Reflex|Fate Weaver|DDFateWeaver|The Oracle|DDFateWeaver|14",
+				"Paragon of Prophecy|Fate Weaver|DDFateWeaver|The Oracle|DDFateWeaver|18"
 			],
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver"
 		},
 		{
-			"name": "Aspect of The Void",
+			"name": "The Void",
 			"shortName": "The Void",
 			"source": "DDFateWeaver",
 			"subclassSpells": [
-				"Arms of Hadar|XPHB",
+				"False Life|XPHB",
 				"Dissonant Whispers|XPHB",
 				"Darkness|XPHB",
 				"Phantasmal Force|XPHB",
@@ -1112,7 +1111,7 @@
 				{
 					"prepared": {
 						"3": [
-							"Arms of Hadar|XPHB",
+							"False Life|XPHB",
 							"Dissonant Whispers|XPHB",
 							"Darkness|XPHB",
 							"Phantasmal Force|XPHB"
@@ -1133,11 +1132,11 @@
 				}
 			],
 			"subclassFeatures": [
-				"Aspect of the Void|Fate Weaver|DDFateWeaver|The Void|DDFateWeaver|3",
+				"the Void|Fate Weaver|DDFateWeaver|The Void|DDFateWeaver|3",
 				"Call to the Void|Fate Weaver|DDFateWeaver|The Void|DDFateWeaver|6",
 				"Empty Fortune|Fate Weaver|DDFateWeaver|The Void|DDFateWeaver|10",
 				"Boon of the Void|Fate Weaver|DDFateWeaver|The Void|DDFateWeaver|14",
-				"Inevitable End|Fate Weaver|DDFateWeaver|The Void|DDFateWeaver|18"
+				"Weaver of the Void|Fate Weaver|DDFateWeaver|The Void|DDFateWeaver|18"
 			],
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver"
@@ -1145,39 +1144,39 @@
 	],
 	"subclassFeature": [
 		{
-			"name": "Aspect of The Vizier",
+			"name": "The Oracle",
 			"source": "DDFateWeaver",
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver",
-			"subclassShortName": "The Vizier",
+			"subclassShortName": "The Oracle",
 			"subclassSource": "DDFateWeaver",
 			"level": 3,
 			"entries": [
 				"{@i Peer Into the Web of Fate}",
-				"The web of fate is unfathomably complex, but you have learned what patterns to look for in order to tease secrets from its tangled branches. Whatever destiny awaits you and your companions, you are likely to see it coming.",
+				"All Fate Weavers can see the paths laid by the threads, but only you can {@i truly} read them. You have learned how to tease secrets from the tangled branches of the web of fate and apply that knowledge to the present. This foresight is not infinite, for the web is unfathomably complex, but you can see just far enough to know what is possible. Whatever destiny awaits you and your companions, you are likely to see it coming.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Vizier Spells|Fate Weaver|DDFateWeaver|The Vizier|DDFateWeaver|3"
+					"subclassFeature": "Oracle Spells|Fate Weaver|DDFateWeaver|The Oracle|DDFateWeaver|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Innate Oracle|Fate Weaver|DDFateWeaver|The Vizier|DDFateWeaver|3"
+					"subclassFeature": "Soothsayer|Fate Weaver|DDFateWeaver|The Oracle|DDFateWeaver|3"
 				}
 			]
 		},
 		{
-			"name": "Vizier Spells",
+			"name": "Oracle Spells",
 			"source": "DDFateWeaver",
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver",
-			"subclassShortName": "The Vizier",
+			"subclassShortName": "The Oracle",
 			"subclassSource": "DDFateWeaver",
 			"level": 3,
 			"entries": [
-				"When you reach a Fate Weaver level specified in the Vizier Spells table, you thereafter always have the listed spells prepared.",
+				"When you reach a Fate Weaver level specified in the Oracle Spells table, you thereafter always have the listed spells prepared.",
 				{
 					"type": "table",
-					"caption": "Vizier Spells",
+					"caption": "Oracle Spells",
 					"colLabels": [
 						"Fate Weaver Level",
 						"Spells"
@@ -1208,15 +1207,15 @@
 			]
 		},
 		{
-			"name": "Innate Oracle",
+			"name": "Soothsayer",
 			"source": "DDFateWeaver",
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver",
-			"subclassShortName": "The Vizier",
+			"subclassShortName": "The Oracle",
 			"subclassSource": "DDFateWeaver",
 			"level": 3,
 			"entries": [
-				"Your view into to the web of fate allows you to effortlessly channel spells that reveal its secrets, and share your insight with others. You gain the following benefits.",
+				"Your view into to the web of fate allows you to effortlessly channel spells that reveal its secrets. You gain the following benefits.",
 				{
 					"type": "entries",
 					"entries": [
@@ -1250,7 +1249,7 @@
 			"source": "DDFateWeaver",
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver",
-			"subclassShortName": "The Vizier",
+			"subclassShortName": "The Oracle",
 			"subclassSource": "DDFateWeaver",
 			"level": 6,
 			"entries": [
@@ -1258,15 +1257,15 @@
 			]
 		},
 		{
-			"name": "Oracular Judgment",
+			"name": "Prophetic Judgment",
 			"source": "DDFateWeaver",
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver",
-			"subclassShortName": "The Vizier",
+			"subclassShortName": "The Oracle",
 			"subclassSource": "DDFateWeaver",
 			"level": 10,
 			"entries": [
-				"You can harness your connection to fate to uplift those who follow your guidance, and punish those who would endanger your path. Whenever you target a creature with an ability that expends one of your Fate Dice, you can choose to expend a spell slot and roll a number of Fate Dice equal to the slot's level. The targeted creature either gains {@variantrule Temporary Hit Points|XPHB} or takes psychic damage equal to the result (your choice). The Fate Dice you roll for this feature are not expended."
+				"You can harness your connection to fate to uplift those who follow your guidance, or punish those who would endanger your path. Whenever you target a creature with an ability that expends one of your Fate Dice, you can choose to expend a spell slot and roll a number of d6 equal to the slot's level. The targeted creature either gains {@variantrule Temporary Hit Points|XPHB} or takes psychic damage equal to the result (your choice)."
 			]
 		},
 		{
@@ -1274,7 +1273,7 @@
 			"source": "DDFateWeaver",
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver",
-			"subclassShortName": "The Vizier",
+			"subclassShortName": "The Oracle",
 			"subclassSource": "DDFateWeaver",
 			"level": 14,
 			"entries": [
@@ -1286,15 +1285,15 @@
 			"source": "DDFateWeaver",
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver",
-			"subclassShortName": "The Vizier",
+			"subclassShortName": "The Oracle",
 			"subclassSource": "DDFateWeaver",
 			"level": 18,
 			"entries": [
-				"Your view of the web of fate is unrivaled by any mortal. You always have the {@spell Foresight|XPHB} spell prepared, and you can cast it by expending 7 Fate Dice. Whenever you cast {@spell Foresight|XPHB}, you can also choose to change its casting time to one Action instead of one minute. If you do so, its duration is only one minute. The Minimal Exertion benefit of your Innate Oracle feature does not affect this casting of the spell."
+				"Your view of the web of fate is unrivaled by any mortal. You always have the {@spell Foresight|XPHB} spell prepared, and you can cast it by expending 7 Fate Dice. Whenever you cast {@spell Foresight|XPHB}, you can also choose to change its casting time to one Action instead of one minute. If you do so, its duration is only one minute. The Minimal Exertion benefit of your Soothsayer feature does not affect this casting of the spell."
 			]
 		},
 		{
-			"name": "Aspect of The Void",
+			"name": "The Void",
 			"source": "DDFateWeaver",
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver",
@@ -1304,6 +1303,8 @@
 			"entries": [
 				"{@i Know True Nothingness}",
 				"Something is wrong with you. Perhaps you have seen the end of time, had your soul disconnected from your body, or maybe you have been forgotten by fate altogether. Whatever the case, you are not so tightly bound by the rules of this world. You can slip through the cracks to see what lies beyond the edges of time and space, and tug at the fabric holding it all together. Though you must be careful which threads you pull, lest you unravel yourself completely.",
+				"All things are connected to the threads of fate; or at least they should be. You are an exception. By whatever means, your thread was loosed from the web and the tapestry alike. You still have bonds to other threads, but their influence on is tenuous.",
+				"All things are connected to the threads of fate, but something is wrong with you; your thread is loose. Still woven into the tapestry, but unbound by the web. Your fate is being written as it happens.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Void Spells|Fate Weaver|DDFateWeaver|The Void|DDFateWeaver|3"
@@ -1338,7 +1339,7 @@
 					"rows": [
 						[
 							"3rd",
-							"{@spell Arms of Hadar|XPHB}, {@spell Dissonant Whispers|XPHB}, {@spell Darkness|XPHB}, {@spell Phantasmal Force|XPHB}"
+							"{@spell False Life|XPHB}, {@spell Dissonant Whispers|XPHB}, {@spell Darkness|XPHB}, {@spell Phantasmal Force|XPHB}"
 						],
 						[
 							"5th",
@@ -1431,7 +1432,7 @@
 			]
 		},
 		{
-			"name": "Inevitable End",
+			"name": "Weaver of the Void",
 			"source": "DDFateWeaver",
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver",
