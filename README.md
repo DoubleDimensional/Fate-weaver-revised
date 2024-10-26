@@ -1,4 +1,4 @@
-A heavily revised version of Erikku Blade's Fate Weaver Class.
+A *heavily* revised version of Erikku Blade's Fate Weaver Class.
 
 This homebrew includes:
 ## The Fateweaver class
