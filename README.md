@@ -7,34 +7,31 @@ This homebrew includes:
 - Like a wizard, cleric, druid, bard, and a sorcerer all had a baby. And the baby can see the structure of the universe.
 - Bend fate in your party's favor and toward your enemy's doom.
 - Manipulate your spell slots.
-- Do cool fate magic stuff
+- Do other cool fate magic stuff
 
 ## Four subclasses
-- Loosely based on some of the cards in the Deck of Many Things.
-
-#### The Vizier
+#### The Oracle
 *Peer into the Web of Fate*
-- WIP
 - Excel in divination
-- Uplift your allies
-- See the Future
+- Guide your allies
+- See the future
 
-#### The Void
-*Know True Nothingness*
-- WIP
-- Circumvent effects (this shit aint nothing on me, man)
-- Move unimpeded
-- Unravel things
+#### The (Void? Fateless? Unbound? Untethered?)
+*WIP*
+- Circumvent effects (this shit aint nothing to me, man)
+- Move unimpeded (telport and move through walls)
+- Unravel things (destroy completely)
 
-#### The Knight
-*Class splash text WIP*
+#### The Keeper
+*WIP*
 - Wield arms and armor
 - Protect your allies
-- Sever threads
+- Sever enemy's threads
 
 #### Subclass 4 TBD
-*splash text*
-- cool stuff I'm sure
+*WIP*
+- Maybe something about being in a cycle, repeating the past, Déjà vu?
+- Something about alternate realities, following branches that have been lost?
 
 ## A New Spell
 #### Dewthorne's Defer Destiny
