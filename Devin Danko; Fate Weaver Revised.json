@@ -1084,7 +1084,7 @@
 			"subclassFeatures": [
 				"The Oracle|Fate Weaver|DDFateWeaver|The Oracle|DDFateWeaver|3",
 				"Shared Insight|Fate Weaver|DDFateWeaver|The Oracle|DDFateWeaver|6",
-				"Prophetic Judgment|Fate Weaver|DDFateWeaver|The Oracle|DDFateWeaver|10",
+				"Placeholder WIP Feature|Fate Weaver|DDFateWeaver|The Oracle|DDFateWeaver|10",
 				"Precognitive Reflex|Fate Weaver|DDFateWeaver|The Oracle|DDFateWeaver|14",
 				"Paragon of Prophecy|Fate Weaver|DDFateWeaver|The Oracle|DDFateWeaver|18"
 			],
@@ -1235,13 +1235,6 @@
 						},
 						{
 							"type": "entries",
-							"name": "Prescient Guard.",
-							"entries": [
-								"While you aren't wearing armor or wielding a Shield, your base Armor Class equals 10 plus your Dexterity and Charisma modifiers."
-							]
-						},
-						{
-							"type": "entries",
 							"name": "Self-Sufficient.",
 							"entries": [
 								"When you cast a spell from the Divination school, you can do so without any Verbal components, and you can replace any Material components that are consumed by the spell or that have a cost specified in the spell with a Divination Focus, which is not consumed."
@@ -1264,7 +1257,7 @@
 			]
 		},
 		{
-			"name": "Prophetic Judgment",
+			"name": "Placeholder WIP Feature",
 			"source": "DDFateWeaver",
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver",
@@ -1272,7 +1265,7 @@
 			"subclassSource": "DDFateWeaver",
 			"level": 10,
 			"entries": [
-				"You can harness your connection to fate to uplift those who follow your guidance, or punish those who would endanger your path. Whenever you target a creature with an ability that expends one of your Fate Dice, you can choose to expend a spell slot and roll a number of d6 equal to the slot's level. The targeted creature either gains {@variantrule Temporary Hit Points|XPHB} or takes psychic damage equal to the result (your choice)."
+				"Working on it!"
 			]
 		},
 		{
