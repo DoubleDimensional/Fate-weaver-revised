@@ -1230,7 +1230,7 @@
 							"type": "entries",
 							"name": "Minimal Exertion.",
 							"entries": [
-								"When you cast a spell from the Divination school that has a casting time of an action, you can instead cast it as a {@variantrule Bonus Action|XPHB}."
+								"When you cast a level 1+ spell from the Divination school that has a casting time of an action, you can instead cast it as a {@variantrule Bonus Action|XPHB}."
 							]
 						},
 						{
