@@ -14,13 +14,13 @@
 				],
 				"version": "1.0",
 				"url": "https://github.com/DoubleDimensional/Fate-weaver-revised",
-				"status": "wip",
+				"status": "ready",
 				"edition": "classic",
 				"color": "9CD6E4"
 			}
 		],
-		"dateAdded": 1729860695,
-		"dateLastModified": 1729860700
+		"dateAdded": 0,
+		"dateLastModified": 0
 	},
 	"class": [
 		{
@@ -55,13 +55,13 @@
 				16,
 				16,
 				17,
+				17,
+				18,
 				18,
 				19,
+				20,
 				21,
-				22,
-				23,
-				24,
-				25
+				22
 			],
 			"preparedSpellsChange": "restLong",
 			"cantripProgression": [
