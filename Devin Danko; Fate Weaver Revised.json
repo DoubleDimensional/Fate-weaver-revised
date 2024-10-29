@@ -1085,7 +1085,7 @@
 			"subclassFeatures": [
 				"The Oracle|Fate Weaver|DDFateWeaver|The Oracle|DDFateWeaver|3",
 				"Shared Insight|Fate Weaver|DDFateWeaver|The Oracle|DDFateWeaver|6",
-				"Placeholder WIP Feature|Fate Weaver|DDFateWeaver|The Oracle|DDFateWeaver|10",
+				"Needleworker|Fate Weaver|DDFateWeaver|The Oracle|DDFateWeaver|10",
 				"Precognitive Reflex|Fate Weaver|DDFateWeaver|The Oracle|DDFateWeaver|14",
 				"Paragon of Prophecy|Fate Weaver|DDFateWeaver|The Oracle|DDFateWeaver|18"
 			],
@@ -1258,7 +1258,7 @@
 			]
 		},
 		{
-			"name": "Placeholder WIP Feature",
+			"name": "Needleworker",
 			"source": "DDFateWeaver",
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver",
@@ -1266,10 +1266,7 @@
 			"subclassSource": "DDFateWeaver",
 			"level": 10,
 			"entries": [
-				"{@b NOT FINAL, JUST SOME A LIST OF SOME IDEAS}",
-				"Whenever a creature you can see within range succeeds a D20 Test, you can choose to make them fail instead. Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}. <--- Seems OP? Anti-legendary reisistance?",
-				"When you cast a level 1+ spell from the Divination school, you gain {@sense Truesight} until the start of your next turn. <--- Becomes completely useless if you otherwise have Truesight.",
-				"You can harness your connection to fate to uplift those who follow your guidance, and punish those who would endanger your path. Whenever you target a creature with an ability that expends one of your Fate Dice, you can choose to expend a spell slot and roll a number of d6 equal to the slot's level. The targeted creature either gains {@variantrule Temporary Hit Points|XPHB} or takes psychic damage equal to the result (your choice). <--- Seems out of place for a divination based subclass."
+				"Because you can read their patterns, you have learned to guide the threads more precisely. When you use your Fate Weaving feature, you can roll the Fate Die twice and apply either roll as the bonus or penalty."
 			]
 		},
 		{
