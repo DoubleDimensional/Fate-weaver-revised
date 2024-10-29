@@ -1460,14 +1460,14 @@
 				{
 					"type": "list",
 					"items": [
-						"A deck of illustrated cards which are shuffled and dealt to be read.",
+						"A deck of illustrated cards which are shuffled and dealt.",
 						"A shallow bowl of water into which needles are dropped.",
 						"Various bones, shells, dice, and other trinkets which are cast onto a surface.",
 						"A stone or metal bowl in which things are burnt and patterns are read from the ashes."
 					]
 				},
 				"To use a Divination focus you perform a ritual over the course of 1 minute. During the ritual, you ask a single question about yourself or another creature concerning an event to occur in the near future. By reading the patterns in the Divination Focus, you receive an omen from the DM hinting toward the most likely outcome of the event. These omens are usually vague and unclear, and it is up to you to interpret their meaning.",
-				"For example, you may ask {@i \"What awaits us at my companion's reunion with their estranged family?\"}, and the DM may answer, {@i \"The card you draw represents tension and unease.\"}"
+				"For example, you may ask {@i \"What awaits us at my companion's reunion with their estranged family?\"}, and the DM might reply, {@i \"The card you draw represents tension and unease.\"}"
 			]
 		}
 	],
