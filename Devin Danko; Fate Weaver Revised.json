@@ -1010,7 +1010,7 @@
 			"classSource": "DDFateWeaver",
 			"level": 20,
 			"entries": [
-				"Your ability to affect the fate of the world around you is unsurpassed by any other mortal. As a {@variantrule Bonus Action|XPHB}, you can enter a state of heightened power and gain the benefits below for 10 minutes. Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by expending a level 7+ spell slot (no action required).",
+				"You have become so skilled at manipulating the threads fate that you can weave them with ease. As a {@variantrule Bonus Action|XPHB}, you can enter a state of heightened power and gain the benefits below for 10 minutes. Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by expending a level 7+ spell slot (no action required).",
 				{
 					"type": "entries",
 					"entries": [
@@ -1018,14 +1018,15 @@
 							"type": "entries",
 							"name": "Alter Reality.",
 							"entries": [
-								"You have the Wish spell prepared, and if you cast Wish, you can choose the Roll Redo option without suffering any of the stress it would normally cause."
+								"You have the {@spell Wish|xphb} spell prepared, and if you cast {@spell Wish|xphb}, you can choose the Roll Redo option without suffering any of the stress it would normally cause.",
+								"If you choose an option that does cause you to suffer the stress, there is a only a 10 percent chance that you are unable to cast {@spell Wish|xphb} ever again, instead of 33 percent."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Held Aloft.",
 							"entries": [
-								"You are suspended in the air by the threads of fate. You have a Fly Speed of 30 feet, and can hover."
+								"You gain a {@variantrule Fly Speed|XPHB} equal to your {@variantrule Speed|XPHB}, and you can hover. As you fly, the threads of fate become visible in the air around you."
 							]
 						},
 						{
@@ -1265,7 +1266,10 @@
 			"subclassSource": "DDFateWeaver",
 			"level": 10,
 			"entries": [
-				"Working on it!"
+				"{@b NOT FINAL, JUST SOME A LIST OF SOME IDEAS}",
+				"Whenever a creature you can see within range succeeds a D20 Test, you can choose to make them fail instead. Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}. <--- Seems OP? Anti-legendary reisistance?",
+				"When you cast a level 1+ spell from the Divination school, you gain {@sense Truesight} until the start of your next turn. <--- Becomes completely useless if you otherwise have Truesight.",
+				"You can harness your connection to fate to uplift those who follow your guidance, and punish those who would endanger your path. Whenever you target a creature with an ability that expends one of your Fate Dice, you can choose to expend a spell slot and roll a number of d6 equal to the slot's level. The targeted creature either gains {@variantrule Temporary Hit Points|XPHB} or takes psychic damage equal to the result (your choice). <--- Seems out of place for a divination based subclass."
 			]
 		},
 		{
@@ -1289,7 +1293,7 @@
 			"subclassSource": "DDFateWeaver",
 			"level": 18,
 			"entries": [
-				"Your view of the web of fate is unrivaled by any mortal. You always have the {@spell Foresight|XPHB} spell prepared, and you can cast it by expending 7 Fate Dice. Whenever you cast {@spell Foresight|XPHB}, you can also choose to change its casting time to one Action instead of one minute. If you do so, its duration is only one minute. The Minimal Exertion benefit of your Soothsayer feature does not affect this casting of the spell."
+				"Your view of the web of fate is unparalleled by any other mortal. You always have the {@spell Foresight|XPHB} spell prepared, and you can cast it by expending 7 Fate Dice. Whenever you cast {@spell Foresight|XPHB}, you can choose to change its casting time to one Action instead of one minute. If you do so, its duration is only ten minutes. The Minimal Exertion benefit of your Soothsayer feature does not affect this casting of the spell."
 			]
 		},
 		{
@@ -1303,8 +1307,8 @@
 			"entries": [
 				"{@i Know True Nothingness}",
 				"Something is wrong with you. Perhaps you have seen the end of time, had your soul disconnected from your body, or maybe you have been forgotten by fate altogether. Whatever the case, you are not so tightly bound by the rules of this world. You can slip through the cracks to see what lies beyond the edges of time and space, and tug at the fabric holding it all together. Though you must be careful which threads you pull, lest you unravel yourself completely.",
-				"All things are connected to the threads of fate; or at least they should be. You are an exception. By whatever means, your thread was loosed from the web and the tapestry alike. You still have bonds to other threads, but their influence on is tenuous.",
-				"All things are connected to the threads of fate, but something is wrong with you; your thread is loose. Still woven into the tapestry, but unbound by the web. Your fate is being written as it happens.",
+				"All things are connected to the threads of fate; or at least they should be. You are an exception. By whatever means, your thread was loosed from the web and the tapestry alike. You still have bonds to other threads, but their influence on you is tenuous.",
+				"All things are connected to the threads of fate, but something is wrong with you; your thread is loose. Still woven into the tapestry, but unbound by the web. Your fate is only being written as it happens.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Void Spells|Fate Weaver|DDFateWeaver|The Void|DDFateWeaver|3"
