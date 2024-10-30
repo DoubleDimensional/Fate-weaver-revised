@@ -1,4 +1,5 @@
-A *heavily* revised version of Erikku Blade's Fate Weaver Class.
+A *heavily* revised version of Erikku Blade's Fate Weaver Class
+Intended for use with the D&D 2024 rules, but also mostly compatible with 2014.
 
 This homebrew includes:
 ## The Fateweaver class
@@ -28,10 +29,10 @@ This homebrew includes:
 - Protect your allies
 - Sever enemy's threads
 
-#### Subclass 4 TBD
+#### The Phoenix
 *WIP*
-- Maybe something about being in a cycle, repeating the past, Déjà vu?
-- Something about alternate realities, following branches that have been lost?
+- Burn with the flames of the immortal phoenix
+- Evade death, at a cost
 
 ## A New Spell
 #### Dewthorne's Defer Destiny
