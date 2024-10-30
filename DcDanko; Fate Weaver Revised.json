@@ -14,13 +14,13 @@
                 ],
                 "version": "1.0",
                 "url": "https://github.com/DoubleDimensional/Fate-weaver-revised",
-                "status": "ready",
+                "status": "wip",
                 "edition": "classic",
-                "color": "9CD6E4"
+                "color": "73c4d9"
             }
         ],
-        "dateAdded": 1730249000,
-        "dateLastModified": 1730250000
+        "dateAdded": 1730250000,
+        "dateLastModified": 1730300000
     },
     "class": [
         {
@@ -490,41 +490,6 @@
                     ]
                 }
             ],
-            "classFeatures": [
-                "Spellcasting|Fate Weaver|DDFateWeaver|1",
-                "Fate Weaving|Fate Weaver|DDFateWeaver|1",
-                "Boon of Fate|Fate Weaver|DDFateWeaver|2",
-                "Spell Weaving|Fate Weaver|DDFateWeaver|2",
-                {
-                    "classFeature": "Fate Weaver Subclass|Fate Weaver|DDFateWeaver|3",
-                    "gainSubclassFeature": true
-                },
-                "Ability Score Improvement|Fate Weaver|DDFateWeaver|4",
-                "Premonition|Fate Weaver|DDFateWeaver|5",
-                {
-                    "classFeature": "Subclass Feature|Fate Weaver|DDFateWeaver|6",
-                    "gainSubclassFeature": true
-                },
-                "Pattern Shift|Fate Weaver|DDFateWeaver|7",
-                "Ability Score Improvement|Fate Weaver|DDFateWeaver|8",
-                {
-                    "classFeature": "Subclass Feature|Fate Weaver|DDFateWeaver|10",
-                    "gainSubclassFeature": true
-                },
-                "Ability Score Improvement|Fate Weaver|DDFateWeaver|12",
-                {
-                    "classFeature": "Subclass Feature|Fate Weaver|DDFateWeaver|14",
-                    "gainSubclassFeature": true
-                },
-                "Ability Score Improvement|Fate Weaver|DDFateWeaver|16",
-                "Straight from the Source|Fate Weaver|DDFateWeaver|17",
-                {
-                    "classFeature": "Subclass Feature|Fate Weaver|DDFateWeaver|18",
-                    "gainSubclassFeature": true
-                },
-                "Epic Boon|Fate Weaver|DDFateWeaver|19",
-                "Threadspinner|Fate Weaver|DDFateWeaver|20"
-            ],
             "subclassTitle": "Fate Weaver Subclass",
             "classSpells": [
                 "Absorb Elements|XGE",
@@ -913,6 +878,41 @@
                 "Zone of Truth",
                 "Zone of Truth|XPHB"
             ],
+            "classFeatures": [
+                "Spellcasting|Fate Weaver|DDFateWeaver|1",
+                "Fate Weaving|Fate Weaver|DDFateWeaver|1",
+                "Boon of Fate|Fate Weaver|DDFateWeaver|2",
+                "Spell Weaving|Fate Weaver|DDFateWeaver|2",
+                {
+                    "classFeature": "Fate Weaver Subclass|Fate Weaver|DDFateWeaver|3",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Fate Weaver|DDFateWeaver|4",
+                "Premonition|Fate Weaver|DDFateWeaver|5",
+                {
+                    "classFeature": "Subclass Feature|Fate Weaver|DDFateWeaver|6",
+                    "gainSubclassFeature": true
+                },
+                "Pattern Shift|Fate Weaver|DDFateWeaver|7",
+                "Ability Score Improvement|Fate Weaver|DDFateWeaver|8",
+                {
+                    "classFeature": "Subclass Feature|Fate Weaver|DDFateWeaver|10",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Fate Weaver|DDFateWeaver|12",
+                {
+                    "classFeature": "Subclass Feature|Fate Weaver|DDFateWeaver|14",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Fate Weaver|DDFateWeaver|16",
+                "Straight from the Source|Fate Weaver|DDFateWeaver|17",
+                {
+                    "classFeature": "Subclass Feature|Fate Weaver|DDFateWeaver|18",
+                    "gainSubclassFeature": true
+                },
+                "Epic Boon|Fate Weaver|DDFateWeaver|19",
+                "Threadspinner|Fate Weaver|DDFateWeaver|20"
+            ],
             "hasFluff": true,
             "hasFluffImages": false
         }
@@ -987,7 +987,7 @@
                             "type": "entries",
                             "name": "Spellcasting Focus.",
                             "entries": [
-                                "You can use an {@item Arcane Focus|XPHB} or a {@item Divination Focus|DDFateWeaver} as a Spellcasting Focus for your Fate Weaver spells."
+                                "You can use an {@item Arcane Focus|XPHB} or a {@item Divination Focus|DDFateWeaver} as a {@variantrule Spellcasting Focus|XPHB} for your Fate Weaver spells."
                             ]
                         }
                     ]
@@ -1001,7 +1001,7 @@
             "classSource": "DDFateWeaver",
             "level": 1,
             "entries": [
-                "You have learned how to pull at the threads that underlie reality to nudge situations toward your desired outcome. You have a pool of two d6s called Fate Dice that you can spend to bend fate. Immediately after a creature you can see within 30 feet of you rolls the d20 for a {@variantrule D20 Test|XPHB}, you can take a {@variantrule Reaction|XPHB} to expend one Fate Die and roll it, then apply the number rolled as a bonus or penalty (your choice) to the d20 roll.",
+                "You have learned how to pull at the threads that underlie reality to nudge situations toward your desired outcome. You have a pool of two d6s called Fate Dice that you can spend to bend fate. Immediately after a creature you can see within 30 feet of you rolls the d20 for a {@variantrule D20 Test|XPHB}, you can take a {@variantrule Reaction|XPHB} to expend 1 Fate Die and roll it, then apply the number rolled as a bonus or penalty (your choice) to the d20 roll.",
                 "Your pool regains all expended dice when you finish a Long Rest.",
                 "The pool's maximum number of dice increases when you reach certain levels, as shown in the Fate Dice column of the Fate Weaver Features table."
             ]
@@ -1013,7 +1013,7 @@
             "classSource": "DDFateWeaver",
             "level": 2,
             "entries": [
-                "Your mere existence in the world makes reality malleable, and with your guidance, others around you can bend their own fate. As a Magic action, you can expend one Fate Die to give a Boon of Fate to a creature within 15 feet of yourself. A creature can have only one Boon of Fate at a time.",
+                "Your mere existence in the world makes reality malleable, and with your guidance, others around you can bend their own fate. As a Magic action, you can expend 1 Fate Die to give a Boon of Fate to a creature within 15 feet of yourself. A creature can have only one Boon of Fate at a time.",
                 "Once within the next hour when the creature fails a {@variantrule D20 Test|XPHB}, the creature can dismiss the Boon of Fate to reroll the test, potentially turning the failure into a success."
             ]
         },
@@ -1216,8 +1216,8 @@
     ],
     "subclass": [
         {
-            "name": "The Oracle",
-            "shortName": "The Oracle",
+            "name": "Oracle",
+            "shortName": "Oracle",
             "source": "DDFateWeaver",
             "subclassSpells": [
                 "Detect Magic|XPHB",
@@ -1256,18 +1256,18 @@
                 }
             ],
             "subclassFeatures": [
-                "The Oracle|Fate Weaver|DDFateWeaver|The Oracle|DDFateWeaver|3",
-                "Shared Insight|Fate Weaver|DDFateWeaver|The Oracle|DDFateWeaver|6",
-                "Seer's Stitchwork|Fate Weaver|DDFateWeaver|The Oracle|DDFateWeaver|10",
-                "Precognitive Reflex|Fate Weaver|DDFateWeaver|The Oracle|DDFateWeaver|14",
-                "Paragon of Prophecy|Fate Weaver|DDFateWeaver|The Oracle|DDFateWeaver|18"
+                "Aspect of the Oracle|Fate Weaver|DDFateWeaver|Oracle|DDFateWeaver|3",
+                "Shared Insight|Fate Weaver|DDFateWeaver|Oracle|DDFateWeaver|6",
+                "Seer's Stitchwork|Fate Weaver|DDFateWeaver|Oracle|DDFateWeaver|10",
+                "Precognitive Reflex|Fate Weaver|DDFateWeaver|Oracle|DDFateWeaver|14",
+                "Paragon of Prophecy|Fate Weaver|DDFateWeaver|Oracle|DDFateWeaver|18"
             ],
             "className": "Fate Weaver",
             "classSource": "DDFateWeaver"
         },
         {
-            "name": "The Void",
-            "shortName": "The Void",
+            "name": "Void",
+            "shortName": "Void",
             "source": "DDFateWeaver",
             "subclassSpells": [
                 "False Life|XPHB",
@@ -1306,18 +1306,18 @@
                 }
             ],
             "subclassFeatures": [
-                "The Void|Fate Weaver|DDFateWeaver|The Void|DDFateWeaver|3",
-                "Call to The Void|Fate Weaver|DDFateWeaver|The Void|DDFateWeaver|6",
-                "Empty Fortune|Fate Weaver|DDFateWeaver|The Void|DDFateWeaver|10",
-                "Boon of The Void|Fate Weaver|DDFateWeaver|The Void|DDFateWeaver|14",
-                "Weaver of The Void|Fate Weaver|DDFateWeaver|The Void|DDFateWeaver|18"
+                "Aspect of the Void|Fate Weaver|DDFateWeaver|Void|DDFateWeaver|3",
+                "Call to the Void|Fate Weaver|DDFateWeaver|Void|DDFateWeaver|6",
+                "Empty Fortune|Fate Weaver|DDFateWeaver|Void|DDFateWeaver|10",
+                "Boon of the Void|Fate Weaver|DDFateWeaver|Void|DDFateWeaver|14",
+                "Weaver of the Void|Fate Weaver|DDFateWeaver|Void|DDFateWeaver|18"
             ],
             "className": "Fate Weaver",
             "classSource": "DDFateWeaver"
         },
         {
-            "name": "The Phoenix",
-            "shortName": "The Phoenix",
+            "name": "Phoenix",
+            "shortName": "Phoenix",
             "source": "DDFateWeaver",
             "subclassSpells": [
                 "Burning Hands|XPHB",
@@ -1356,11 +1356,61 @@
                 }
             ],
             "subclassFeatures": [
-                "The Phoenix|Fate Weaver|DDFateWeaver|The Phoenix|DDFateWeaver|3",
-                "Flames of Rebirth|Fate Weaver|DDFateWeaver|The Phoenix|DDFateWeaver|6",
-                "Phoenix Level 10|Fate Weaver|DDFateWeaver|The Phoenix|DDFateWeaver|10",
-                "Phoenix Level 14|Fate Weaver|DDFateWeaver|The Phoenix|DDFateWeaver|14",
-                "Phoenix Level 18|Fate Weaver|DDFateWeaver|The Phoenix|DDFateWeaver|18"
+                "Aspect of the Phoenix|Fate Weaver|DDFateWeaver|Phoenix|DDFateWeaver|3",
+                "Flames of Rebirth|Fate Weaver|DDFateWeaver|Phoenix|DDFateWeaver|6",
+                "Phoenix Level 10|Fate Weaver|DDFateWeaver|Phoenix|DDFateWeaver|10",
+                "Phoenix Level 14|Fate Weaver|DDFateWeaver|Phoenix|DDFateWeaver|14",
+                "Phoenix Level 18|Fate Weaver|DDFateWeaver|Phoenix|DDFateWeaver|18"
+            ],
+            "className": "Fate Weaver",
+            "classSource": "DDFateWeaver"
+        },
+        {
+            "name": "Keeper",
+            "shortName": "Keeper",
+            "source": "DDFateWeaver",
+            "subclassSpells": [
+                "Sanctuary|XPHB",
+                "Shield of Faith|XPHB",
+                "Warding Bond|XPHB",
+                "Web|XPHB",
+                "Counterspell|XPHB",
+                "Protection from Energy|XPHB",
+                "Death Ward|XPHB",
+                "Otiluke's Resilient Sphere|XPHB",
+                "Circle of Power|XPHB",
+                "Wall of Force|XPHB"
+            ],
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "3": [
+                            "Sanctuary|XPHB",
+                            "Shield of Faith|XPHB",
+                            "Warding Bond|XPHB",
+                            "Web|XPHB"
+                        ],
+                        "5": [
+                            "Counterspell|XPHB",
+                            "Protection from Energy|XPHB"
+                        ],
+                        "7": [
+                            "Death Ward|XPHB",
+                            "Otiluke's Resilient Sphere|XPHB"
+                        ],
+                        "9": [
+                            "Circle of Power|XPHB",
+                            "Wall of Force|XPHB"
+                        ]
+                    }
+                }
+            ],
+            "subclassFeatures": [
+                "Aspect of the Keeper|Fate Weaver|DDFateWeaver|Keeper|DDFateWeaver|3",
+                "Keeper Level 6|Fate Weaver|DDFateWeaver|Keeper|DDFateWeaver|6",
+                "Keeper Level 10|Fate Weaver|DDFateWeaver|Keeper|DDFateWeaver|10",
+                "Keeper Level 14|Fate Weaver|DDFateWeaver|Keeper|DDFateWeaver|14",
+                "Keeper Level 18|Fate Weaver|DDFateWeaver|Keeper|DDFateWeaver|18"
             ],
             "className": "Fate Weaver",
             "classSource": "DDFateWeaver"
@@ -1368,11 +1418,11 @@
     ],
     "subclassFeature": [
         {
-            "name": "The Oracle",
+            "name": "Aspect of the Oracle",
             "source": "DDFateWeaver",
             "className": "Fate Weaver",
             "classSource": "DDFateWeaver",
-            "subclassShortName": "The Oracle",
+            "subclassShortName": "Oracle",
             "subclassSource": "DDFateWeaver",
             "level": 3,
             "entries": [
@@ -1380,11 +1430,11 @@
                 "All Fate Weavers can see the paths laid by the threads, but only you can {@i truly} read them. You have learned how to tease secrets from the tangled branches of the web of fate and apply that knowledge to the present. This foresight is not infinite, for the web is unfathomably complex, but you can see just far enough to know what is possible. Whatever destiny awaits you and your companions, you are likely to see it coming.",
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Oracle Spells|Fate Weaver|DDFateWeaver|The Oracle|DDFateWeaver|3"
+                    "subclassFeature": "Oracle Spells|Fate Weaver|DDFateWeaver|Oracle|DDFateWeaver|3"
                 },
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Soothsayer|Fate Weaver|DDFateWeaver|The Oracle|DDFateWeaver|3"
+                    "subclassFeature": "Soothsayer|Fate Weaver|DDFateWeaver|Oracle|DDFateWeaver|3"
                 }
             ]
         },
@@ -1393,7 +1443,7 @@
             "source": "DDFateWeaver",
             "className": "Fate Weaver",
             "classSource": "DDFateWeaver",
-            "subclassShortName": "The Oracle",
+            "subclassShortName": "Oracle",
             "subclassSource": "DDFateWeaver",
             "level": 3,
             "entries": [
@@ -1435,7 +1485,7 @@
             "source": "DDFateWeaver",
             "className": "Fate Weaver",
             "classSource": "DDFateWeaver",
-            "subclassShortName": "The Oracle",
+            "subclassShortName": "Oracle",
             "subclassSource": "DDFateWeaver",
             "level": 3,
             "entries": [
@@ -1473,7 +1523,7 @@
             "source": "DDFateWeaver",
             "className": "Fate Weaver",
             "classSource": "DDFateWeaver",
-            "subclassShortName": "The Oracle",
+            "subclassShortName": "Oracle",
             "subclassSource": "DDFateWeaver",
             "level": 6,
             "entries": [
@@ -1485,11 +1535,11 @@
             "source": "DDFateWeaver",
             "className": "Fate Weaver",
             "classSource": "DDFateWeaver",
-            "subclassShortName": "The Oracle",
+            "subclassShortName": "Oracle",
             "subclassSource": "DDFateWeaver",
             "level": 10,
             "entries": [
-                "Because you can read their patterns, you have learned to guide the threads more precisely. When you use your Fate Weaving feature, you can roll the Fate Die twice and apply either roll as the bonus or penalty."
+                "Because you can read their patterns, you have learned to guide the threads more precisely. When you use your Fate Weaving feature, you can roll the Fate Die twice and apply the higher roll as the bonus or penalty."
             ]
         },
         {
@@ -1497,7 +1547,7 @@
             "source": "DDFateWeaver",
             "className": "Fate Weaver",
             "classSource": "DDFateWeaver",
-            "subclassShortName": "The Oracle",
+            "subclassShortName": "Oracle",
             "subclassSource": "DDFateWeaver",
             "level": 14,
             "entries": [
@@ -1509,7 +1559,7 @@
             "source": "DDFateWeaver",
             "className": "Fate Weaver",
             "classSource": "DDFateWeaver",
-            "subclassShortName": "The Oracle",
+            "subclassShortName": "Oracle",
             "subclassSource": "DDFateWeaver",
             "level": 18,
             "entries": [
@@ -1517,25 +1567,24 @@
             ]
         },
         {
-            "name": "The Void",
+            "name": "Aspect of the Void",
             "source": "DDFateWeaver",
             "className": "Fate Weaver",
             "classSource": "DDFateWeaver",
-            "subclassShortName": "The Void",
+            "subclassShortName": "Void",
             "subclassSource": "DDFateWeaver",
             "level": 3,
             "entries": [
                 "{@i Know True Nothingness}",
                 "Something is wrong with you. Perhaps you have seen the end of time, had your soul disconnected from your body, or maybe you have been forgotten by fate altogether. Whatever the case, you are not so tightly bound by the rules of this world. You can slip through the cracks to see what lies beyond the edges of time and space, and tug at the fabric holding it all together. Though you must be careful which threads you pull, lest you unravel yourself completely.",
                 "All things are connected to the threads of fate; or at least they should be. You are an exception. By whatever means, your thread was loosed from the web and the tapestry alike. You still have bonds to other threads, but their influence on you is tenuous.",
-                "All things are connected to the threads of fate, but something is wrong with you; your thread is loose. Still woven into the tapestry, but unbound by the web. Your fate is only being written as it happens.",
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Void Spells|Fate Weaver|DDFateWeaver|The Void|DDFateWeaver|3"
+                    "subclassFeature": "Void Spells|Fate Weaver|DDFateWeaver|Void|DDFateWeaver|3"
                 },
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Fateless|Fate Weaver|DDFateWeaver|The Void|DDFateWeaver|3"
+                    "subclassFeature": "Fateless|Fate Weaver|DDFateWeaver|Void|DDFateWeaver|3"
                 }
             ]
         },
@@ -1544,11 +1593,11 @@
             "source": "DDFateWeaver",
             "className": "Fate Weaver",
             "classSource": "DDFateWeaver",
-            "subclassShortName": "The Void",
+            "subclassShortName": "Void",
             "subclassSource": "DDFateWeaver",
             "level": 3,
             "entries": [
-                "When you reach a Fate Weaver level specified in The Void Spells table, you thereafter always have the listed spells prepared.",
+                "When you reach a Fate Weaver level specified in Void Spells table, you thereafter always have the listed spells prepared.",
                 {
                     "type": "table",
                     "caption": "Void Spells",
@@ -1586,7 +1635,7 @@
             "source": "DDFateWeaver",
             "className": "Fate Weaver",
             "classSource": "DDFateWeaver",
-            "subclassShortName": "The Void",
+            "subclassShortName": "Void",
             "subclassSource": "DDFateWeaver",
             "level": 3,
             "entries": [
@@ -1620,11 +1669,11 @@
             ]
         },
         {
-            "name": "Call to The Void",
+            "name": "Call to the Void",
             "source": "DDFateWeaver",
             "className": "Fate Weaver",
             "classSource": "DDFateWeaver",
-            "subclassShortName": "The Void",
+            "subclassShortName": "Void",
             "subclassSource": "DDFateWeaver",
             "level": 6,
             "entries": [
@@ -1636,7 +1685,7 @@
             "source": "DDFateWeaver",
             "className": "Fate Weaver",
             "classSource": "DDFateWeaver",
-            "subclassShortName": "The Void",
+            "subclassShortName": "Void",
             "subclassSource": "DDFateWeaver",
             "level": 10,
             "entries": [
@@ -1644,11 +1693,11 @@
             ]
         },
         {
-            "name": "Boon of The Void",
+            "name": "Boon of the Void",
             "source": "DDFateWeaver",
             "className": "Fate Weaver",
             "classSource": "DDFateWeaver",
-            "subclassShortName": "The Void",
+            "subclassShortName": "Void",
             "subclassSource": "DDFateWeaver",
             "level": 14,
             "entries": [
@@ -1656,11 +1705,11 @@
             ]
         },
         {
-            "name": "Weaver of The Void",
+            "name": "Weaver of the Void",
             "source": "DDFateWeaver",
             "className": "Fate Weaver",
             "classSource": "DDFateWeaver",
-            "subclassShortName": "The Void",
+            "subclassShortName": "Void",
             "subclassSource": "DDFateWeaver",
             "level": 18,
             "entries": [
@@ -1668,11 +1717,11 @@
             ]
         },
         {
-            "name": "The Phoenix",
+            "name": "Aspect of the Phoenix",
             "source": "DDFateWeaver",
             "className": "Fate Weaver",
             "classSource": "DDFateWeaver",
-            "subclassShortName": "The Phoenix",
+            "subclassShortName": "Phoenix",
             "subclassSource": "DDFateWeaver",
             "level": 3,
             "entries": [
@@ -1682,11 +1731,11 @@
                 "More importantly, this gift comes with no special protection from fire. You are as vulnerable as any other creature to fiery magic, including your own. Those of this aspect can use their powers to pull themselves back from the brink of death, and all too often their own rash nature or reliance on destructive magic is what puts them there in the first place.",
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Phoenix Spells|Fate Weaver|DDFateWeaver|The Phoenix|DDFateWeaver|3"
+                    "subclassFeature": "Phoenix Spells|Fate Weaver|DDFateWeaver|Phoenix|DDFateWeaver|3"
                 },
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Mantle of the Phoenix|Fate Weaver|DDFateWeaver|The Phoenix|DDFateWeaver|3"
+                    "subclassFeature": "Mantle of the Phoenix|Fate Weaver|DDFateWeaver|Phoenix|DDFateWeaver|3"
                 }
             ]
         },
@@ -1695,7 +1744,7 @@
             "source": "DDFateWeaver",
             "className": "Fate Weaver",
             "classSource": "DDFateWeaver",
-            "subclassShortName": "The Phoenix",
+            "subclassShortName": "Phoenix",
             "subclassSource": "DDFateWeaver",
             "level": 3,
             "entries": [
@@ -1737,11 +1786,11 @@
             "source": "DDFateWeaver",
             "className": "Fate Weaver",
             "classSource": "DDFateWeaver",
-            "subclassShortName": "The Phoenix",
+            "subclassShortName": "Phoenix",
             "subclassSource": "DDFateWeaver",
             "level": 3,
             "entries": [
-                "You can tap into the infinitely recurring thread of the Phoenix to empower yourself. As a {@variantrule Bonus Action|XPHB}, you can expend one Fate Die to gain the benefits below for 1 minute.",
+                "You can tap into the infinitely recursive thread of the Phoenix. As a {@variantrule Bonus Action|XPHB}, you gain the benefits below for 1 minute.",
                 {
                     "type": "entries",
                     "entries": [
@@ -1775,14 +1824,14 @@
             "source": "DDFateWeaver",
             "className": "Fate Weaver",
             "classSource": "DDFateWeaver",
-            "subclassShortName": "The Phoenix",
+            "subclassShortName": "Phoenix",
             "subclassSource": "DDFateWeaver",
             "level": 6,
             "entries": [
                 "The energy within you grows restless and vengeful. In the face of defeat, it surges outward to preserve you in a fiery roar.",
-				"If you are reduced to 0 hit points, you can use your reaction to draw on the immortal flames of the phoenix. You are instead reduced to 1 hit point, and each creature within 10 feet of you takes fire damage equal to four rolls of your fate dice.",
-				"If you use this feature while under the effects of your Mantle of the Phoenix, this feature gains a bonus to its fire damage equal to your fate weaver level.",
-				"You can use this feature once, regaining the ability to do so when you finish a long rest or if you spend a use of your Spell Weaving feature to use it again."
+                "If you are reduced to 0 hit points, you can use your reaction to draw on the immortal flames of the phoenix. You are instead reduced to 1 hit point, and each creature within 10 feet of you takes fire damage equal to four rolls of your fate dice.",
+                "If you use this feature while under the effects of your Mantle of the Phoenix, this feature gains a bonus to its fire damage equal to your fate weaver level.",
+                "You can use this feature once, regaining the ability to do so when you finish a long rest or if you spend a use of your Spell Weaving feature to use it again."
             ]
         },
         {
@@ -1790,7 +1839,7 @@
             "source": "DDFateWeaver",
             "className": "Fate Weaver",
             "classSource": "DDFateWeaver",
-            "subclassShortName": "The Phoenix",
+            "subclassShortName": "Phoenix",
             "subclassSource": "DDFateWeaver",
             "level": 10,
             "entries": [
@@ -1802,7 +1851,7 @@
             "source": "DDFateWeaver",
             "className": "Fate Weaver",
             "classSource": "DDFateWeaver",
-            "subclassShortName": "The Phoenix",
+            "subclassShortName": "Phoenix",
             "subclassSource": "DDFateWeaver",
             "level": 14,
             "entries": [
@@ -1814,14 +1863,163 @@
             "source": "DDFateWeaver",
             "className": "Fate Weaver",
             "classSource": "DDFateWeaver",
-            "subclassShortName": "The Phoenix",
+            "subclassShortName": "Phoenix",
             "subclassSource": "DDFateWeaver",
             "level": 18,
             "entries": [
                 "You finally master the spark of fire that dances within you. While under the effect of your Mantle of Phoenix feature, you gain additional benefits:",
-				"Fiery wings sprout out from your back, granting you the ability to magically fly. You have a flying speed of 60 feet and can hover. Movement from this magical flight does not provoke opportunity attacks.",
-				"Once per turn whenever you cast a spell that deals fire damage, you can choose to ignore resistances and immunity to fire damage for that spell until the end of the current turn.",
-				"Your body becomes more akin to the fiery elemental your powers are drawn from. You can occupy a creature's space and vice versa. Whenever a creature starts its turn whilst occupying your space, it takes 2d6 fire damage."
+                "Fiery wings sprout out from your back, granting you the ability to magically fly. You have a flying speed of 60 feet and can hover. Movement from this magical flight does not provoke opportunity attacks.",
+                "Once per turn whenever you cast a spell that deals fire damage, you can choose to ignore resistances and immunity to fire damage for that spell until the end of the current turn.",
+                "Your body becomes more akin to the fiery elemental your powers are drawn from. You can occupy a creature's space and vice versa. Whenever a creature starts its turn whilst occupying your space, it takes 2d6 fire damage."
+            ]
+        },
+        {
+            "name": "Aspect of the Keeper",
+            "source": "DDFateWeaver",
+            "className": "Fate Weaver",
+            "classSource": "DDFateWeaver",
+            "subclassShortName": "Keeper",
+            "subclassSource": "DDFateWeaver",
+            "level": 3,
+            "entries": [
+                "{@i Guard Others with your Life}",
+                "Class flavor text",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Keeper Spells|Fate Weaver|DDFateWeaver|Keeper|DDFateWeaver|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Bulwark|Fate Weaver|DDFateWeaver|Keeper|DDFateWeaver|3"
+                }
+            ]
+        },
+        {
+            "name": "Keeper Spells",
+            "source": "DDFateWeaver",
+            "className": "Fate Weaver",
+            "classSource": "DDFateWeaver",
+            "subclassShortName": "Keeper",
+            "subclassSource": "DDFateWeaver",
+            "level": 3,
+            "entries": [
+                "When you reach a Fate Weaver level specified in the Keeper Spells table, you thereafter always have the listed spells prepared.",
+                {
+                    "type": "table",
+                    "caption": "Keeper Spells",
+                    "colLabels": [
+                        "Fate Weaver Level",
+                        "Spells"
+                    ],
+                    "colStyles": [
+                        "col-3 text-center",
+                        "col-9"
+                    ],
+                    "rows": [
+                        [
+                            "3rd",
+                            "{@spell Sanctuary|XPHB}, {@spell Shield of Faith|XPHB}, {@spell Warding Bond|XPHB}, {@spell Web|XPHB}"
+                        ],
+                        [
+                            "5th",
+                            "{@spell Counterspell|XPHB}, {@spell Protection from Energy|XPHB}"
+                        ],
+                        [
+                            "7th",
+                            "{@spell Death Ward|XPHB}, {@spell Otiluke's Resilient Sphere|XPHB}"
+                        ],
+                        [
+                            "9th",
+                            "{@spell Circle of Power|XPHB}, {@spell Wall of Force|XPHB}"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bulwark",
+            "source": "DDFateWeaver",
+            "className": "Fate Weaver",
+            "classSource": "DDFateWeaver",
+            "subclassShortName": "Keeper",
+            "subclassSource": "DDFateWeaver",
+            "level": 3,
+            "entries": [
+                "Empty.",
+                {
+                    "type": "entries",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Protector.",
+                            "entries": [
+                                "You gain training with Light armor, Medium armor, and Shields. Additionally, you can use a Shield as a {@variantrule Spellcasting Focus|XPHB} for your Fate Weaver spells."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Ready Defense.",
+                            "entries": [
+                                "You know the {@spell Resistance|XPHB} cantrip and it does not count against your total number of Fate Weaver cantrips. If you cast it on yourself, you can do so as a {@variantrule Bonus Action|XPHB} and it does not require {@variantrule Concentration|XPHB}."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Empty.",
+                            "entries": [
+                                "Empty."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Keeper Level 6",
+            "source": "DDFateWeaver",
+            "className": "Fate Weaver",
+            "classSource": "DDFateWeaver",
+            "subclassShortName": "Keeper",
+            "subclassSource": "DDFateWeaver",
+            "level": 6,
+            "entries": [
+                "Empty"
+            ]
+        },
+        {
+            "name": "Keeper Level 10",
+            "source": "DDFateWeaver",
+            "className": "Fate Weaver",
+            "classSource": "DDFateWeaver",
+            "subclassShortName": "Keeper",
+            "subclassSource": "DDFateWeaver",
+            "level": 10,
+            "entries": [
+                "Empty."
+            ]
+        },
+        {
+            "name": "Keeper Level 14",
+            "source": "DDFateWeaver",
+            "className": "Fate Weaver",
+            "classSource": "DDFateWeaver",
+            "subclassShortName": "Keeper",
+            "subclassSource": "DDFateWeaver",
+            "level": 14,
+            "entries": [
+                "Empty."
+            ]
+        },
+        {
+            "name": "Keeper Level 18",
+            "source": "DDFateWeaver",
+            "className": "Fate Weaver",
+            "classSource": "DDFateWeaver",
+            "subclassShortName": "Keeper",
+            "subclassSource": "DDFateWeaver",
+            "level": 18,
+            "entries": [
+                "Empty."
             ]
         }
     ],
