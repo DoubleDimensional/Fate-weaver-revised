@@ -1013,9 +1013,8 @@
             "classSource": "DDFateWeaver",
             "level": 2,
             "entries": [
-                "Your mere existence in the world makes reality malleable, and with your guidance, others around you can bend their own fate. As a Magic action, you can expend one Fate Die to give a Boon of Fate to a creature within 15 feet of yourself.",
-                "Once within the next hour when the creature fails a {@variantrule D20 Test|XPHB}, the creature can dismiss the Boon of Fate to reroll the test, potentially turning the failure into a success.",
-                "A creature can have only one Boon of Fate at a time."
+                "Your mere existence in the world makes reality malleable, and with your guidance, others around you can bend their own fate. As a Magic action, you can expend one Fate Die to give a Boon of Fate to a creature within 15 feet of yourself. A creature can have only one Boon of Fate at a time.",
+                "Once within the next hour when the creature fails a {@variantrule D20 Test|XPHB}, the creature can dismiss the Boon of Fate to reroll the test, potentially turning the failure into a success."
             ]
         },
         {
