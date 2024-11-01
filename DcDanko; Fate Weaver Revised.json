@@ -20,7 +20,7 @@
 			}
 		],
 		"dateAdded": 1730250000,
-		"dateLastModified": 1730300000
+		"dateLastModified": 1730400000
 	},
 	"class": [
 		{
@@ -1013,7 +1013,7 @@
 			"classSource": "DDFateWeaver",
 			"level": 2,
 			"entries": [
-				"Your mere existence in the world makes reality malleable, and with your guidance, others around you can bend their own fate. As a Magic action, you can expend 1 Fate Die to give a Boon of Fate to a creature within 15 feet of yourself. A creature can have only one Boon of Fate at a time.",
+				"Your mere existence in the world makes reality malleable, and with your guidance, others around you can bend their own fate. As a Magic action, you can expend 1 Fate Die to give a Boon of Fate to a creature within 5 feet of yourself. A creature can have only one Boon of Fate at a time.",
 				"Once within the next hour when the creature fails a {@variantrule D20 Test|XPHB}, the creature can dismiss the Boon of Fate to reroll the test, potentially turning the failure into a success."
 			]
 		},
@@ -1273,7 +1273,7 @@
 				"False Life|XPHB",
 				"Dissonant Whispers|XPHB",
 				"Darkness|XPHB",
-				"Phantasmal Force|XPHB",
+				"Misty Step|XPHB",
 				"Blink|XPHB",
 				"Hunger of Hadar|XPHB",
 				"Banishment|XPHB",
@@ -1288,7 +1288,7 @@
 							"False Life|XPHB",
 							"Dissonant Whispers|XPHB",
 							"Darkness|XPHB",
-							"Phantasmal Force|XPHB"
+							"Misty Step|XPHB"
 						],
 						"5": [
 							"Blink|XPHB",
@@ -1511,7 +1511,7 @@
 							"type": "entries",
 							"name": "Self-Sufficient.",
 							"entries": [
-								"When you cast a spell from the Divination school, you can do so without any Verbal components, and you can replace any Material components that are consumed by the spell or that have a cost specified in the spell with a Divination Focus, which is not consumed."
+								"When you cast a spell from the Divination school, you can do so without any Verbal components, and you can replace any Material components that are consumed by the spell or that have a cost specified in the spell with a {@item Divination Focus|DDFateWeaver}, which is not consumed."
 							]
 						}
 					]
@@ -1527,7 +1527,7 @@
 			"subclassSource": "DDFateWeaver",
 			"level": 6,
 			"entries": [
-				"You can share a small fraction of your view into the future with those touched by your magic. When a creature uses your Boon of Fate to reroll a failed {@variantrule D20 Test|XPHB}, they gain a bonus to the roll equal to your {@table Proficiency Bonus|XPHB}."
+				"You can share a small fraction of your view into the future with those touched by your magic. Whenever a creature uses your Boon of Fate to reroll a failed {@variantrule D20 Test|XPHB}, they gain a bonus to the roll equal to your {@table Proficiency Bonus|XPHB}."
 			]
 		},
 		{
@@ -1539,7 +1539,7 @@
 			"subclassSource": "DDFateWeaver",
 			"level": 10,
 			"entries": [
-				"Because you can read their patterns, you have learned to guide the threads more precisely. When you use your Fate Weaving feature, you can roll the Fate Die twice and apply the higher roll as the bonus or penalty."
+				"Because you can read their patterns, you have learned to guide the threads more precisely. Whenever you use Fate Weaving, you can roll the Fate Die twice and apply the higher roll as the bonus or penalty."
 			]
 		},
 		{
@@ -1576,7 +1576,7 @@
 			"level": 3,
 			"entries": [
 				"{@i Become Unbound by Natural Laws}",
-				"The threads of fate don't exist in the material world, they curl though a tenuous void where distance becomes meaningless and time is merely a suggestion. Ancient beings beyond comprehension call this nothingness home, and your connection to the threads has changed you to be more like them; unburdened by the laws that govern mundane reality. You can slip through the gaps and tug at the strings holding everything together. Though you must be careful which threads you pull, lest you unravel yourself completely.",
+				"The threads of fate don't exist in the material world, they wind though an unreachable void where distance is meaningless and time flows in all directions. Ancient beings beyond comprehension call this nothingness home, and your connection to the threads has changed you to be more like them; unburdened by the laws that govern mundane reality. You can slip through the gaps to tug at the stitches holding everything together. Though you must be careful which threads you pull, lest you unravel yourself completely.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Void Spells|Fate Weaver|DDFateWeaver|Void|DDFateWeaver|3"
@@ -1611,7 +1611,7 @@
 					"rows": [
 						[
 							"3rd",
-							"{@spell False Life|XPHB}, {@spell Dissonant Whispers|XPHB}, {@spell Darkness|XPHB}, {@spell Phantasmal Force|XPHB}"
+							"{@spell False Life|XPHB}, {@spell Dissonant Whispers|XPHB}, {@spell Darkness|XPHB}, {@spell Misty Step|XPHB}"
 						],
 						[
 							"5th",
@@ -1881,8 +1881,8 @@
 			"subclassSource": "DDFateWeaver",
 			"level": 3,
 			"entries": [
-				"{@i Guard Others with your Life}",
-				"Class flavor text",
+				"{@i Bear the Burden of Cruel Fates}",
+				"Though you have some control over the threads, sometimes a small nudge is not enough. To ensure that those around you are safe, you  is to take their pain upon yourself. You can shield others from the cruelty that destiny so often delivers, or bear it yourself if need be.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Keeper Spells|Fate Weaver|DDFateWeaver|Keeper|DDFateWeaver|3"
@@ -1944,13 +1944,13 @@
 			"subclassSource": "DDFateWeaver",
 			"level": 3,
 			"entries": [
-				"Empty.",
+				"When your companions are in danger, you are always prepared to take the hit. You gain the following benefits.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Protector.",
+							"name": "Armored.",
 							"entries": [
 								"You gain training with Light armor, Medium armor, and Shields. Additionally, you can use a Shield as a {@variantrule Spellcasting Focus|XPHB} for your Fate Weaver spells."
 							]
@@ -1964,9 +1964,9 @@
 						},
 						{
 							"type": "entries",
-							"name": "Empty.",
+							"name": "Guardian.",
 							"entries": [
-								"Empty."
+								"You gain either the {@feat Protection} or {@feat Interception} Fighting Style feat, your choice."
 							]
 						}
 					]
@@ -1982,7 +1982,7 @@
 			"subclassSource": "DDFateWeaver",
 			"level": 6,
 			"entries": [
-				"Empty"
+				"When a creature within 30 feet of you is reduced to 0 {@variantrule Hit Points|XPHB}, you can expend 1 Fate Die to cause them to drop to 1 {@variantrule Hit Points|XPHB|Hit Point} instead."
 			]
 		},
 		{
@@ -2055,7 +2055,7 @@
 				{
 					"number": 1,
 					"unit": "reaction",
-					"condition": "which you take when a creature you can see within range makes a {@variantrule D20 Test|XPHB|D20 Test}"
+					"condition": "which you take when a creature you can see within range makes a {@variantrule D20 Test|XPHB}"
 				}
 			],
 			"range": {
@@ -2084,7 +2084,7 @@
 			"entries": [
 				"You pull the threads of fate away from one creature and hold them, preparing to re-thread them around another creature at a later time.",
 				"Record the number rolled by the triggering creature. The triggering creature must then reroll the {@variantrule D20 Test|XPHB} and use the new roll.",
-				"At any point while you maintain {@status Concentration|XPHB}, you can choose a creature you can see within range (you can choose yourself) that is about to make a {@variantrule D20 Test|XPHB|D20 Test}. Instead of rolling, the creature uses the number previously recorded and the spell ends.",
+				"At any point while you maintain {@status Concentration|XPHB}, you can choose a creature you can see within range (you can choose yourself) that is about to make a {@variantrule D20 Test|XPHB}. Instead of rolling, the creature uses the number previously recorded and the spell ends.",
 				"If the spell ends before you select a second target, you take {@damage 4d6} Force damage as the threads of fate tear away from your grasp.",
 				"{@i Created by the (former) wizard Caladris Dewthorne}"
 			],
