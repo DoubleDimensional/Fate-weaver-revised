@@ -1,5 +1,5 @@
 A heavily revised version of Erikku Blade's Fate Weaver Class.
-- Intended for use with the D&D 2024 rules, but it's mostly compatible with 2014. Some features assume new functionality of 2024 spells
+- Intended for use with the D&D 2024 rules, but it's mostly compatible with 2014. Some features assume new functionality of 2024 spells.
 
 This homebrew includes:
 ## The Fateweaver class
@@ -13,22 +13,23 @@ This homebrew includes:
 #### The Oracle
 *Peer into the Web of Fate*
 - Expert at divination magics
-- Imporved support
+- Improves the base class's support options
 
-#### The (Void? Fateless? Unbound? Untethered?)
+#### The Void
 *WIP*
-- Circumvent effects
-- Move unimpeded
+- Circumvent effects and move unimpeded
 
 #### The Phoenix
 *WIP*
 - Burn with the flames of the immortal phoenix
-- Evade death, at a cost
 
 #### The Keeper
 *WIP*
 - Protect your allies
-- Sever enemy's threads
+
+## An Item
+#### Divination Focus
+- Can be used as a spellcasting focus by Fate Weavers, and to perform minor divinations.
 
 ## A New Spell
 #### Dewthorne's Defer Destiny
