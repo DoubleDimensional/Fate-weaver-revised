@@ -1218,6 +1218,7 @@
 			"shortName": "Oracle",
 			"source": "DDFateWeaver",
 			"subclassSpells": [
+				"Guidance|XPHB",
 				"Detect Magic|XPHB",
 				"Identify|XPHB",
 				"Augury|XPHB",
@@ -1233,6 +1234,7 @@
 				{
 					"prepared": {
 						"3": [
+							"Guidance|XPHB",
 							"Detect Magic|XPHB",
 							"Identify|XPHB",
 							"Augury|XPHB",
@@ -1267,6 +1269,7 @@
 			"shortName": "Void",
 			"source": "DDFateWeaver",
 			"subclassSpells": [
+				"Frostbite|XGE",
 				"False Life|XPHB",
 				"Dissonant Whispers|XPHB",
 				"Darkness|XPHB",
@@ -1282,6 +1285,7 @@
 				{
 					"prepared": {
 						"3": [
+							"Frostbite|XGE",
 							"False Life|XPHB",
 							"Dissonant Whispers|XPHB",
 							"Darkness|XPHB",
@@ -1316,6 +1320,7 @@
 			"shortName": "Phoenix",
 			"source": "DDFateWeaver",
 			"subclassSpells": [
+				"Produce Flame|XPHB",
 				"Burning Hands|XPHB",
 				"Hellish Rebuke|XPHB",
 				"Heat Metal|XPHB",
@@ -1331,6 +1336,7 @@
 				{
 					"prepared": {
 						"3": [
+							"Produce Flame|XPHB",
 							"Burning Hands|XPHB",
 							"Hellish Rebuke|XPHB",
 							"Heat Metal|XPHB",
@@ -1365,6 +1371,7 @@
 			"shortName": "Keeper",
 			"source": "DDFateWeaver",
 			"subclassSpells": [
+				"Resistance|XPHB",
 				"Sanctuary|XPHB",
 				"Shield of Faith|XPHB",
 				"Warding Bond|XPHB",
@@ -1380,6 +1387,7 @@
 				{
 					"prepared": {
 						"3": [
+							"Resistance|XPHB",
 							"Sanctuary|XPHB",
 							"Shield of Faith|XPHB",
 							"Warding Bond|XPHB",
@@ -1709,7 +1717,7 @@
 				"That power is a mixed blessing. Like the mythical creature, you can invoke fiery energy and gain the ability to cheat death itself. This power comes at a cost. The fire within you seethes, demanding to be unleashed. You sometimes find yourself absentmindedly feeding fires. You can't bear to allow a fire to sputter out. You feel most comfortable while holding a lit torch or sitting in front of a campfire.",
 				"More importantly, this gift comes with no special protection from fire. You are as vulnerable as any other creature to fiery magic, including your own. Those of this aspect can use their powers to pull themselves back from the brink of death, and all too often their own rash nature or reliance on destructive magic is what puts them there in the first place.",
 				"NEW TEXT",
-				"You can see threads beginning and ending all around you, but yours is different. An immortal flame burns inside you, carrying your thread Your thread has become linked to that of the legendary phoenix,",
+				"An immortal flame burns inside you, all-consuming and but much like the legendary phoenix, you are reborn from the ash.",
 				"Oracle text",
 				"All Fate Weavers can see the paths laid by the threads, but only you can {@i truly} read them. You have learned how to tease secrets from the tangled branches of the web of fate and apply that knowledge to the present. This foresight is not infinite, for the web is unfathomably complex, but you can see just far enough to know what is possible. Whatever destiny awaits you and your companions, you are likely to see it coming.",
 				{
@@ -2080,6 +2088,64 @@
 				"You pull the threads of fate away from one creature and hold them, preparing to re-thread them around another creature at a later time.",
 				"Record the number rolled by the triggering creature. The triggering creature must then reroll the {@variantrule D20 Test|XPHB} and use the new roll.",
 				"At any point while you maintain {@status Concentration|XPHB}, you can choose a creature you can see within range (you can choose yourself) that is about to make a {@variantrule D20 Test|XPHB}. Instead of rolling, the creature uses the number previously recorded and the spell ends.",
+				"If the spell ends before you select a second target, you take {@damage 4d6} Force damage as the threads of fate tear away from your grasp.",
+				"{@i Created by the wizard Caladris Sylvendir Dewthorne}"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Fate Weaver",
+						"source": "DDFateWeaver"
+					}
+				]
+			}
+		},
+		{"name": "Dewthorne's Defer Destiny WIP 2",
+			"source": "DcDankoSpells",
+			"level": 3,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when a creature you can see within range rolls a {@variantrule D20 Test|XPHB}"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a sealed glass ampule with a needle and thread inside"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You pull the threads of fate away from one creature and hold them, preparing to re-thread them around another creature at a later time.",
+				"Record the number rolled on the d20 by the triggering creature. The triggering creature must then reroll the {@variantrule D20 Test|XPHB} and use the new roll.",
+				"As and {@variantrule Action|XPHB}, you can end the spell by choosing creature you can see within range (you can choose yourself) to be the second target. The next time that creature would roll the d20 for a {@variantrule D20 Test|XPHB}, they instead use the number previously recorded.",
 				"If the spell ends before you select a second target, you take {@damage 4d6} Force damage as the threads of fate tear away from your grasp.",
 				"{@i Created by the wizard Caladris Sylvendir Dewthorne}"
 			],
