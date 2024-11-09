@@ -922,8 +922,8 @@
 					"classFeature": "Subclass Feature|Fate Weaver|DDFateWeaver|14",
 					"gainSubclassFeature": true
 				},
+				"Straight from the Source|Fate Weaver|DDFateWeaver|15",
 				"Ability Score Improvement|Fate Weaver|DDFateWeaver|16",
-				"Straight from the Source|Fate Weaver|DDFateWeaver|17",
 				{
 					"classFeature": "Subclass Feature|Fate Weaver|DDFateWeaver|18",
 					"gainSubclassFeature": true
@@ -940,11 +940,13 @@
 			"source": "DDFateWeaver",
 			"entries": [
 				{
-					"type": "entries",
+					"type": "section",
+					"name": "Fate Weaver",
+					"source": "DDFateWeaver",
 					"entries": [
-						"Fate Weavers can bend and warp the threads that bind all of reality together, granting them the power to change the destiny of themselves and everyone around them. These threads, the so-called {@i 'threads of fate'}, form the underlying structure of the multiverse. Some represent creatures, places, or objects and tell the stories of their journeys through reality, while others represent the bonds between those things. They intertwine and influence each other’s paths as time marches from future to present to past.",
-						"The past is a tightly woven tapestry—an impossibly intricate ledger of {@i everything} that has ever happened. The future is a web of possibility—a forest of branching threads that represent every possible outcome simultaneously. The present is where a Fate Weaver does their work: tugging at the threads to favor branches that realize their desires and avoid those that spell doom.",
-						"Fate Weavers are incredibly rare, and they can come about in many ways. Some are simply gifted from birth, some become connected to the threads through a profound act of magic, and others still are granted knowledge through contact with a being of immense power. Whatever their origin, most Fate Weavers find that dodging the call to adventure is futile. After all, it’s hard to avoid destiny when you’re the one pulling the strings."
+						"Fate Weavers can bend and warp the threads that bind all of reality together, granting them the power to change the destiny of themselves and everyone around them. These threads, the so-called {@i 'threads of fate'}, form the underlying structure of the multiverse. Some represent creatures, places, or objects and tell the stories of their journeys through reality, while others represent the bonds between those things.",
+						"The threads exist on a continuum between the past, present, and future. The past is the {@i tapestry of fate}—an intricate ledger of everything that has ever happened. The future is the {@i web of fate}—an impossibly complex forest of branching threads that represent every possible outcome of every event simultaneously. The present is the {@i loom}—where the branches of the web are trimmed and their final path recorded in the unchanging tapestry. This where a Fate Weaver does their work: tugging at the threads to favor branches that realize their desires and avoid those that spell doom.",
+						"Fate Weavers are incredibly rare, and the origin of their power can be extremely varied. Some are simply gifted from birth, some become connected to the threads through a profound act of magic, and others still are granted knowledge through contact with a being of immense power. Whatever their genesis, most Fate Weavers find that dodging the call to adventure is futile. After all, it’s hard to avoid destiny when you’re the one pulling the strings."
 					]
 				}
 			]
@@ -957,7 +959,7 @@
 			"classSource": "DDFateWeaver",
 			"level": 1,
 			"entries": [
-				"By manipulating the threads of fate, you can cast spells. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Fate Weaver spells, which appear in the {@filter Fate Weaver spell list|spells|class=Fate Weaver (FW:R)} later in the class's description.",
+				"By manipulating the threads that underlie reality, you can cast spells. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Fate Weaver spells, which appear in the {@filter Fate Weaver spell list|spells|class=Fate Weaver (FW:R)} later in the class's description.",
 				{
 					"type": "entries",
 					"entries": [
@@ -1016,7 +1018,7 @@
 			"classSource": "DDFateWeaver",
 			"level": 1,
 			"entries": [
-				"You have learned how to pull at the threads that underlie reality to nudge situations toward your desired outcome. You have a pool of two d6s called Fate Dice that you can spend to bend fate. Immediately after a creature you can see within 30 feet of you rolls the d20 for a {@variantrule D20 Test|XPHB}, you can take a {@variantrule Reaction|XPHB} to expend 1 Fate Die and roll it, then apply the number rolled as a bonus or penalty (your choice) to the d20 roll.",
+				"You have learned how to pull at the threads of fate to nudge situations toward your desired outcome. You have a pool of two d6s called Fate Dice that you can spend to bend fate. Immediately after a creature you can see within 30 feet of you rolls the d20 for a {@variantrule D20 Test|XPHB}, you can take a {@variantrule Reaction|XPHB} to expend 1 Fate Die and roll it, then apply the number rolled as a bonus or penalty (your choice) to the d20 roll.",
 				"Your pool regains all expended dice when you finish a Long Rest.",
 				"The pool's maximum number of dice increases when you reach certain levels, as shown in the Fate Dice column of the Fate Weaver Features table."
 			]
@@ -1027,7 +1029,7 @@
 			"classSource": "DDFateWeaver",
 			"level": 2,
 			"entries": [
-				"Your mere existence in the world makes reality malleable, and with your guidance, others around you can bend their own fate. As a Magic action, you can expend 1 Fate Die to give a Boon of Fate to a creature within 5 feet of yourself. A creature can have only one Boon of Fate at a time.",
+				"Your mere existence in the world makes reality malleable, and with your guidance, others around you can bend their own fate. As a Magic action, you can expend a level 1+ spell slot to give a Boon of Fate to a creature within 5 feet of yourself. Only one creature at a time can have your Boon of Fate.",
 				"Once within the next hour when the creature fails a {@variantrule D20 Test|XPHB}, the creature can dismiss the Boon of Fate to reroll the test, potentially turning the failure into a success."
 			]
 		},
@@ -1101,7 +1103,7 @@
 			"classSource": "DDFateWeaver",
 			"level": 7,
 			"entries": [
-				"By subtly rearranging the threads you hold, you can adapt to unanticipated situations. Whenever you finish a {@variantrule Short Rest|XPHB}, you can replace one of the level 1+ Fate Weaver spells you have prepared for your Spellcasting feature with another level 1+ spell from the {@filter Fate Weaver spell list.|spells|class=Fate Weaver (FW:R)}"
+				"By subtly rearranging the threads you hold, you can adapt to unanticipated situations. Whenever you finish a {@variantrule Short Rest|XPHB}, you can replace one of the level 1+ Fate Weaver spells you have prepared for your Spellcasting feature with another level 1+ spell from the {@filter Fate Weaver spell list|spells|class=Fate Weaver (FW:R)}."
 			]
 		},
 		{"name": "Ability Score Improvement",
@@ -1140,6 +1142,15 @@
 				"You gain a feature from your Fate Weaver subclass."
 			]
 		},
+		{"name": "Straight from the Source",
+			"source": "DDFateWeaver",
+			"className": "Fate Weaver",
+			"classSource": "DDFateWeaver",
+			"level": 15,
+			"entries": [
+				"Your power comes not from a divinity, nor the primal spirits of the world, nor a well of arcana, but from the fundamental reality that allows those things to exist in the first place. Whenever you change your list of prepared spells, you can choose two of your prepared spells from the {@filter Cleric|spells|class=Cleric}, {@filter Druid|spells|class=Druid}, or {@filter Wizard|spells|class=Wizard} spell lists."
+			]
+		},
 		{"name": "Ability Score Improvement",
 			"source": "DDFateWeaver",
 			"className": "Fate Weaver",
@@ -1147,15 +1158,6 @@
 			"level": 16,
 			"entries": [
 				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
-			]
-		},
-		{"name": "Straight from the Source",
-			"source": "DDFateWeaver",
-			"className": "Fate Weaver",
-			"classSource": "DDFateWeaver",
-			"level": 17,
-			"entries": [
-				"Your power comes not from a divinity, nor the primal spirits of the world, nor a well of arcana, but from the fundamental reality that allows those things to exist in the first place. Whenever you change your list of prepared spells, you can choose two of your prepared spells from the {@filter Cleric|spells|class=Cleric}, {@filter Druid|spells|class=Druid}, or {@filter Wizard|spells|class=Wizard} spell lists."
 			]
 		},
 		{"name": "Subclass Feature",
@@ -1367,8 +1369,8 @@
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver"
 		},
-		{"name": "Aspect of the Keeper",
-			"shortName": "Keeper",
+		{"name": "Aspect of the Defiant",
+			"shortName": "Defiant",
 			"source": "DDFateWeaver",
 			"subclassSpells": [
 				"Resistance|XPHB",
@@ -1409,11 +1411,11 @@
 				}
 			],
 			"subclassFeatures": [
-				"Aspect of the Keeper|Fate Weaver|DDFateWeaver|Keeper|DDFateWeaver|3",
-				"Keeper Level 6|Fate Weaver|DDFateWeaver|Keeper|DDFateWeaver|6",
-				"Keeper Level 10|Fate Weaver|DDFateWeaver|Keeper|DDFateWeaver|10",
-				"Keeper Level 14|Fate Weaver|DDFateWeaver|Keeper|DDFateWeaver|14",
-				"Keeper Level 18|Fate Weaver|DDFateWeaver|Keeper|DDFateWeaver|18"
+				"Aspect of the Defiant|Fate Weaver|DDFateWeaver|Defiant|DDFateWeaver|3",
+				"Defiant Level 6|Fate Weaver|DDFateWeaver|Defiant|DDFateWeaver|6",
+				"Defiant Level 10|Fate Weaver|DDFateWeaver|Defiant|DDFateWeaver|10",
+				"Defiant Level 14|Fate Weaver|DDFateWeaver|Defiant|DDFateWeaver|14",
+				"Unstoppable Force|Fate Weaver|DDFateWeaver|Defiant|DDFateWeaver|18"
 			],
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver"
@@ -1526,7 +1528,7 @@
 			"subclassSource": "DDFateWeaver",
 			"level": 6,
 			"entries": [
-				"You can share a small fraction of your view into the future with those touched by your magic. Whenever a creature uses your Boon of Fate to reroll a failed {@variantrule D20 Test|XPHB}, they gain a bonus to the roll equal to your {@table Proficiency Bonus|XPHB}."
+				"You can share a fraction of your view into the future with those touched by your magic. Whenever a creature uses your Boon of Fate to reroll a failed {@variantrule D20 Test|XPHB}, they gain a bonus to the roll equal to your {@table Proficiency Bonus|XPHB}."
 			]
 		},
 		{"name": "Seer's Stitchwork",
@@ -1716,10 +1718,6 @@
 				"Your power draws from the immortal flame that fuels the legendary phoenix. You or your ancestors perhaps rendered a phoenix a great service, or you were born in its presence. Whatever the cause, a shard of the phoenix's power dwells within you.",
 				"That power is a mixed blessing. Like the mythical creature, you can invoke fiery energy and gain the ability to cheat death itself. This power comes at a cost. The fire within you seethes, demanding to be unleashed. You sometimes find yourself absentmindedly feeding fires. You can't bear to allow a fire to sputter out. You feel most comfortable while holding a lit torch or sitting in front of a campfire.",
 				"More importantly, this gift comes with no special protection from fire. You are as vulnerable as any other creature to fiery magic, including your own. Those of this aspect can use their powers to pull themselves back from the brink of death, and all too often their own rash nature or reliance on destructive magic is what puts them there in the first place.",
-				"NEW TEXT",
-				"An immortal flame burns inside you, all-consuming and but much like the legendary phoenix, you are reborn from the ash.",
-				"Oracle text",
-				"All Fate Weavers can see the paths laid by the threads, but only you can {@i truly} read them. You have learned how to tease secrets from the tangled branches of the web of fate and apply that knowledge to the present. This foresight is not infinite, for the web is unfathomably complex, but you can see just far enough to know what is possible. Whatever destiny awaits you and your companions, you are likely to see it coming.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Phoenix Spells|Fate Weaver|DDFateWeaver|Phoenix|DDFateWeaver|3"
@@ -1884,38 +1882,38 @@
 				"Your body becomes more akin to the fiery elemental your powers are drawn from. You can occupy a creature's space and vice versa. Whenever a creature starts its turn whilst occupying your space, it takes 2d6 fire damage."
 			]
 		},
-		{"name": "Aspect of the Keeper",
+		{"name": "Aspect of the Defiant",
 			"source": "DDFateWeaver",
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver",
-			"subclassShortName": "Keeper",
+			"subclassShortName": "Defiant",
 			"subclassSource": "DDFateWeaver",
 			"level": 3,
 			"entries": [
-				"{@i Bear the Burden of Cruel Fates}",
-				"Though you have some control over the threads, sometimes a small nudge is not enough. To ensure that those around you are safe, you  is to take their pain upon yourself. You can shield others from the cruelty that destiny so often delivers, or bear it yourself if need be.",
+				"{@i Rebel Against Cruel Fates}",
+				"Most are forced to follow the paths laid before them by the web of fate, but your ability to manipulate its threads lets you resist the natural order. By sheer force of will, you can subvert destiny to shield others from the cruelty it so often delivers. You will not sit idly by while misfortune befalls the world, for you are {@i defiant}.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Keeper Spells|Fate Weaver|DDFateWeaver|Keeper|DDFateWeaver|3"
+					"subclassFeature": "Defiant Spells|Fate Weaver|DDFateWeaver|Defiant|DDFateWeaver|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bulwark|Fate Weaver|DDFateWeaver|Keeper|DDFateWeaver|3"
+					"subclassFeature": "Bulwark|Fate Weaver|DDFateWeaver|Defiant|DDFateWeaver|3"
 				}
 			]
 		},
-		{"name": "Keeper Spells",
+		{"name": "Defiant Spells",
 			"source": "DDFateWeaver",
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver",
-			"subclassShortName": "Keeper",
+			"subclassShortName": "Defiant",
 			"subclassSource": "DDFateWeaver",
 			"level": 3,
 			"entries": [
-				"When you reach a Fate Weaver level specified in the Keeper Spells table, you thereafter always have the listed spells prepared.",
+				"When you reach a Fate Weaver level specified in the Defiant Spells table, you thereafter always have the listed spells prepared.",
 				{
 					"type": "table",
-					"caption": "Keeper Spells",
+					"caption": "Defiant Spells",
 					"colLabels": [
 						"Fate Weaver Level",
 						"Spells"
@@ -1949,11 +1947,11 @@
 			"source": "DDFateWeaver",
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver",
-			"subclassShortName": "Keeper",
+			"subclassShortName": "Defiant",
 			"subclassSource": "DDFateWeaver",
 			"level": 3,
 			"entries": [
-				"When your companions are in danger, you are always prepared to take the hit. You gain the following benefits.",
+				"Standing in defiance of fate itself, you are prepared to face whatever comes your way. You gain the following benefits.",
 				{
 					"type": "entries",
 					"entries": [
@@ -1961,7 +1959,7 @@
 							"type": "entries",
 							"name": "Armored.",
 							"entries": [
-								"You gain training with Light armor, Medium armor, and Shields. Additionally, you can use a Shield as a {@variantrule Spellcasting Focus|XPHB} for your Fate Weaver spells."
+								"You gain training with Light armor, Medium armor, and Shields. In addition, you can use a Shield as a {@variantrule Spellcasting Focus|XPHB} for your Fate Weaver spells."
 							]
 						},
 						{
@@ -1973,57 +1971,83 @@
 						},
 						{
 							"type": "entries",
-							"name": "Guardian.",
+							"name": "Combat Guardian.",
 							"entries": [
-								"You gain either the {@feat Protection} or {@feat Interception} Fighting Style feat, your choice."
+								"You gain either the {@feat Protection|XPHB} or {@feat Interception|XPHB} Fighting Style feat, your choice."
 							]
 						}
 					]
 				}
 			]
 		},
-		{"name": "Keeper Level 6",
+		{"name": "Defiant Level 6",
 			"source": "DDFateWeaver",
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver",
-			"subclassShortName": "Keeper",
+			"subclassShortName": "Defiant",
 			"subclassSource": "DDFateWeaver",
 			"level": 6,
 			"entries": [
-				"When a creature within 30 feet of you is reduced to 0 {@variantrule Hit Points|XPHB}, you can expend 1 Fate Die to cause them to drop to 1 {@variantrule Hit Points|XPHB|Hit Point} instead."
+				"Whenever you give a creature a Boon of Fate, they also gain {@variantrule Temporary Hit Points|XPHB} equal to 5 times the level of the spell slot expended."
 			]
 		},
-		{"name": "Keeper Level 10",
+		{"name": "Defiant Level 10",
 			"source": "DDFateWeaver",
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver",
-			"subclassShortName": "Keeper",
+			"subclassShortName": "Defiant",
 			"subclassSource": "DDFateWeaver",
 			"level": 10,
 			"entries": [
-				"WIP."
+				"Whenever you or a creature within 30 feet of you is reduced to 0 {@variantrule Hit Points|XPHB}, you can expend 1 Fate Die (no action required) to cause them to drop to 1 {@variantrule Hit Points|XPHB|Hit Point} instead."
 			]
 		},
-		{"name": "Keeper Level 14",
+		{"name": "Defiant Level 14",
 			"source": "DDFateWeaver",
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver",
-			"subclassShortName": "Keeper",
+			"subclassShortName": "Defiant",
 			"subclassSource": "DDFateWeaver",
 			"level": 14,
 			"entries": [
 				"WIP."
 			]
 		},
-		{"name": "Keeper Level 18",
+		{"name": "Unstoppable Force",
 			"source": "DDFateWeaver",
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver",
-			"subclassShortName": "Keeper",
+			"subclassShortName": "Defiant",
 			"subclassSource": "DDFateWeaver",
 			"level": 18,
 			"entries": [
-				"WIP."
+				"Even when the odds are stacked against you. When you fail a {@variantrule D20 Test|XPHB}, you can succeed instead by choosing one of the following options.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Tear Threads.",
+							"entries": [
+								"Expend 5 Fate Dice."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Bleed.",
+							"entries": [
+								"Take 10d6 Necrotic damage, which can't be reduced in any way."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Give Everything.",
+							"entries": [
+								"Permanently reduce your Constitution score by 2 points. Nothing can restore these lost points."
+							]
+						}
+					]
+				}
 			]
 		}
 	],
@@ -2089,65 +2113,7 @@
 				"Record the number rolled by the triggering creature. The triggering creature must then reroll the {@variantrule D20 Test|XPHB} and use the new roll.",
 				"At any point while you maintain {@status Concentration|XPHB}, you can choose a creature you can see within range (you can choose yourself) that is about to make a {@variantrule D20 Test|XPHB}. Instead of rolling, the creature uses the number previously recorded and the spell ends.",
 				"If the spell ends before you select a second target, you take {@damage 4d6} Force damage as the threads of fate tear away from your grasp.",
-				"{@i Created by the wizard Caladris Sylvendir Dewthorne}"
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Wizard",
-						"source": "PHB"
-					},
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					},
-					{
-						"name": "Fate Weaver",
-						"source": "DDFateWeaver"
-					}
-				]
-			}
-		},
-		{"name": "Dewthorne's Defer Destiny WIP 2",
-			"source": "DcDankoSpells",
-			"level": 3,
-			"school": "D",
-			"time": [
-				{
-					"number": 1,
-					"unit": "reaction",
-					"condition": "which you take when a creature you can see within range rolls a {@variantrule D20 Test|XPHB}"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 60
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "a sealed glass ampule with a needle and thread inside"
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 1,
-						"upTo": true
-					},
-					"concentration": true
-				}
-			],
-			"entries": [
-				"You pull the threads of fate away from one creature and hold them, preparing to re-thread them around another creature at a later time.",
-				"Record the number rolled on the d20 by the triggering creature. The triggering creature must then reroll the {@variantrule D20 Test|XPHB} and use the new roll.",
-				"As and {@variantrule Action|XPHB}, you can end the spell by choosing creature you can see within range (you can choose yourself) to be the second target. The next time that creature would roll the d20 for a {@variantrule D20 Test|XPHB}, they instead use the number previously recorded.",
-				"If the spell ends before you select a second target, you take {@damage 4d6} Force damage as the threads of fate tear away from your grasp.",
-				"{@i Created by the wizard Caladris Sylvendir Dewthorne}"
+				"{@i Created by Caladris Sylvendir Dewthorne}"
 			],
 			"classes": {
 				"fromClassList": [
