@@ -14,7 +14,7 @@
 				],
 				"version": "1.0",
 				"url": "https://github.com/DoubleDimensional/Fate-weaver-revised",
-				"status": "wip",
+				"status": "ready",
 				"edition": "classic",
 				"color": "73c4d9"
 			},
@@ -602,6 +602,7 @@
 				"Detect Poison and Disease|XPHB",
 				"Detect Thoughts",
 				"Detect Thoughts|XPHB",
+				"Dewthorne's Defer Destiny|FW:R",
 				"Disguise Self",
 				"Disguise Self|XPHB",
 				"Dimension Door",
@@ -1018,7 +1019,8 @@
 			"classSource": "DDFateWeaver",
 			"level": 1,
 			"entries": [
-				"You have learned how to pull at the threads of fate to nudge situations toward your desired outcome. You have a pool of two d6s called Fate Dice that you can spend to bend fate. Immediately after a creature you can see within 30 feet of you rolls the d20 for a {@variantrule D20 Test|XPHB}, you can take a {@variantrule Reaction|XPHB} to expend 1 Fate Die and roll it, then apply the number rolled as a bonus or penalty (your choice) to the d20 roll.",
+				"You have learned how to pull at the threads of fate to nudge situations toward your desired outcome. You have a pool of two d7s called Fate Dice that you can spend to bend fate. To simulate rolling 1d7, roll 1d8 and reroll on an 8.",
+				"Immediately after a creature you can see within 30 feet of you rolls the d20 for a {@variantrule D20 Test|XPHB}, you can take a {@variantrule Reaction|XPHB} to expend 1 Fate Die and roll it, then apply the number rolled as a bonus or penalty (your choice) to the d20 roll.",
 				"Your pool regains all expended dice when you finish a Long Rest.",
 				"The pool's maximum number of dice increases when you reach certain levels, as shown in the Fate Dice column of the Fate Weaver Features table."
 			]
@@ -1230,7 +1232,18 @@
 				"Divination|XPHB",
 				"Locate Creature|XPHB",
 				"Commune|XPHB",
-				"Legend Lore|XPHB"
+				"Legend Lore|XPHB",
+				"Guidance",
+				"Detect Magic",
+				"Identify",
+				"Augury",
+				"See Invisibility",
+				"Clairvoyance",
+				"Tongues",
+				"Divination",
+				"Locate Creature",
+				"Commune",
+				"Legend Lore"
 			],
 			"additionalSpells": [
 				{
@@ -1240,19 +1253,30 @@
 							"Detect Magic|XPHB",
 							"Identify|XPHB",
 							"Augury|XPHB",
-							"See Invisibility|XPHB"
+							"See Invisibility|XPHB",
+							"Guidance",
+							"Detect Magic",
+							"Identify",
+							"Augury",
+							"See Invisibility"
 						],
 						"5": [
 							"Clairvoyance|XPHB",
-							"Tongues|XPHB"
+							"Tongues|XPHB",
+							"Clairvoyance",
+							"Tongues"
 						],
 						"7": [
 							"Divination|XPHB",
-							"Locate Creature|XPHB"
+							"Locate Creature|XPHB",
+							"Divination",
+							"Locate Creature"
 						],
 						"9": [
 							"Commune|XPHB",
-							"Legend Lore|XPHB"
+							"Legend Lore|XPHB",
+							"Commune",
+							"Legend Lore"
 						]
 					}
 				}
@@ -1281,7 +1305,18 @@
 				"Banishment|XPHB",
 				"Dimension Door|XPHB",
 				"Passwall|XPHB",
-				"Antilife Shell|XPHB"
+				"Antilife Shell|XPHB",
+				"Frostbite|XGE",
+				"False Life",
+				"Dissonant Whispers",
+				"Darkness",
+				"Misty Step",
+				"Blink",
+				"Hunger of Hadar",
+				"Banishment",
+				"Dimension Door",
+				"Passwall",
+				"Antilife Shell"
 			],
 			"additionalSpells": [
 				{
@@ -1291,19 +1326,29 @@
 							"False Life|XPHB",
 							"Dissonant Whispers|XPHB",
 							"Darkness|XPHB",
-							"Misty Step|XPHB"
+							"Misty Step|XPHB",
+							"False Life",
+							"Dissonant Whispers",
+							"Darkness",
+							"Misty Step"
 						],
 						"5": [
 							"Blink|XPHB",
-							"Hunger of Hadar|XPHB"
+							"Hunger of Hadar|XPHB",
+							"Blink",
+							"Hunger of Hadar"
 						],
 						"7": [
 							"Banishment|XPHB",
-							"Dimension Door|XPHB"
+							"Dimension Door|XPHB",
+							"Banishment",
+							"Dimension Door"
 						],
 						"9": [
 							"Passwall|XPHB",
-							"Antilife Shell|XPHB"
+							"Antilife Shell|XPHB",
+							"Passwall",
+							"Antilife Shell"
 						]
 					}
 				}
@@ -1332,7 +1377,18 @@
 				"Fire Shield|XPHB",
 				"Wall of Fire|XPHB",
 				"Flame Strike|XPHB",
-				"Immolation|XPHB"
+				"Immolation|XPHB",
+				"Produce Flame",
+				"Burning Hands",
+				"Hellish Rebuke",
+				"Heat Metal",
+				"Scorching Ray",
+				"Fireball",
+				"Fly",
+				"Fire Shield",
+				"Wall of Fire",
+				"Flame Strike",
+				"Immolation"
 			],
 			"additionalSpells": [
 				{
@@ -1342,19 +1398,28 @@
 							"Burning Hands|XPHB",
 							"Hellish Rebuke|XPHB",
 							"Heat Metal|XPHB",
-							"Scorching Ray|XPHB"
+							"Scorching Ray|XPHB",
+							"Produce Flame",
+							"Burning Hands",
+							"Hellish Rebuke",
+							"Heat Metal",
+							"Scorching Ray"
 						],
 						"5": [
 							"Fireball|XPHB",
-							"Fly|XPHB"
+							"Fly|XPHB",
+							"Fireball",
+							"Fly"
 						],
 						"7": [
 							"Fire Shield|XPHB",
-							"Wall of Fire|XPHB"
+							"Wall of Fire|XPHB",
+							"Fire Shield",
+							"Wall of Fire"
 						],
 						"9": [
-							"Flame Strike|XPHB",
-							"Immolation|XPHB"
+							"Flame Strike",
+							"Immolation"
 						]
 					}
 				}
@@ -1383,7 +1448,18 @@
 				"Death Ward|XPHB",
 				"Otiluke's Resilient Sphere|XPHB",
 				"Circle of Power|XPHB",
-				"Wall of Force|XPHB"
+				"Wall of Force|XPHB",
+				"Resistance",
+				"Sanctuary",
+				"Shield of Faith",
+				"Warding Bond",
+				"Web",
+				"Counterspell",
+				"Protection from Energy",
+				"Death Ward",
+				"Otiluke's Resilient Sphere",
+				"Circle of Power",
+				"Wall of Force"
 			],
 			"additionalSpells": [
 				{
@@ -1393,29 +1469,40 @@
 							"Sanctuary|XPHB",
 							"Shield of Faith|XPHB",
 							"Warding Bond|XPHB",
-							"Web|XPHB"
+							"Web|XPHB",
+							"Resistance",
+							"Sanctuary",
+							"Shield of Faith",
+							"Warding Bond",
+							"Web"
 						],
 						"5": [
 							"Counterspell|XPHB",
-							"Protection from Energy|XPHB"
+							"Protection from Energy|XPHB",
+							"Counterspell",
+							"Protection from Energy"
 						],
 						"7": [
 							"Death Ward|XPHB",
-							"Otiluke's Resilient Sphere|XPHB"
+							"Otiluke's Resilient Sphere|XPHB",
+							"Death Ward",
+							"Otiluke's Resilient Sphere"
 						],
 						"9": [
 							"Circle of Power|XPHB",
-							"Wall of Force|XPHB"
+							"Wall of Force|XPHB",
+							"Circle of Power",
+							"Wall of Force"
 						]
 					}
 				}
 			],
 			"subclassFeatures": [
 				"Aspect of the Defiant|Fate Weaver|DDFateWeaver|Defiant|DDFateWeaver|3",
-				"Defiant Level 6|Fate Weaver|DDFateWeaver|Defiant|DDFateWeaver|6",
-				"Defiant Level 10|Fate Weaver|DDFateWeaver|Defiant|DDFateWeaver|10",
-				"Defiant Level 14|Fate Weaver|DDFateWeaver|Defiant|DDFateWeaver|14",
-				"Unstoppable Force|Fate Weaver|DDFateWeaver|Defiant|DDFateWeaver|18"
+				"Woven Shield|Fate Weaver|DDFateWeaver|Defiant|DDFateWeaver|6",
+				"Deny Death|Fate Weaver|DDFateWeaver|Defiant|DDFateWeaver|10",
+				"Mind of Steel|Fate Weaver|DDFateWeaver|Defiant|DDFateWeaver|14",
+				"Defiant Level 18|Fate Weaver|DDFateWeaver|Defiant|DDFateWeaver|18"
 			],
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver"
@@ -1506,14 +1593,14 @@
 							"type": "entries",
 							"name": "Minimal Exertion.",
 							"entries": [
-								"When you cast a level 1+ spell from the Divination school that has a casting time of an action, you can instead cast it as a {@variantrule Bonus Action|XPHB}."
+								"When you cast a level 1+ spell from the Divination school that has a casting time of an action, you can instead cast it as a {@variantrule Bonus Action|XPHB}. In addition, whenever you cast a spell from the Divination school you can replace any Material components that are consumed by the spell or that have a cost specified in the spell with a {@item Divination Focus|DDFateWeaver}, which is not consumed."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Self-Sufficient.",
+							"name": "Forewarned.",
 							"entries": [
-								"When you cast a spell from the Divination school, you can do so without any Verbal components, and you can replace any Material components that are consumed by the spell or that have a cost specified in the spell with a {@item Divination Focus|DDFateWeaver}, which is not consumed."
+								"While you aren't wearing armor, your base {@variantrule Armor Class|XPHB} equals 10 plus your Dexterity and Charisma modifiers."
 							]
 						}
 					]
@@ -1561,7 +1648,7 @@
 			"subclassSource": "DDFateWeaver",
 			"level": 18,
 			"entries": [
-				"Your view of the web of fate is unparalleled by any other mortal. You always have the {@spell Foresight} spell prepared, and you can cast it by expending 7 Fate Dice. Whenever you cast {@spell Foresight}, you can choose to change its casting time to one Action instead of one minute. If you do so, its duration is only ten minutes. The Minimal Exertion benefit of your Soothsayer feature does not affect this casting of the spell."
+				"Your view into the web of fate is unparalleled by any other mortal. You always have the {@spell Foresight} spell prepared, and you can cast it by expending 7 Fate Dice. Whenever you cast {@spell Foresight}, you can choose to change its casting time to one Action instead of one minute. If you do so, its duration is only ten minutes instead of 8 hours. The Minimal Exertion benefit of your Soothsayer feature does not affect this casting of the spell."
 			]
 		},
 		{"name": "Aspect of the Void",
@@ -1959,7 +2046,7 @@
 							"type": "entries",
 							"name": "Armored.",
 							"entries": [
-								"You gain training with Light armor, Medium armor, and Shields. In addition, you can use a Shield as a {@variantrule Spellcasting Focus|XPHB} for your Fate Weaver spells."
+								"You gain training with Light armor, Medium armor, and Shields. In addition, you can use a {@item Shield|XPHB} as a {@variantrule Spellcasting Focus|XPHB} for your Fate Weaver spells."
 							]
 						},
 						{
@@ -1980,7 +2067,7 @@
 				}
 			]
 		},
-		{"name": "Defiant Level 6",
+		{"name": "Woven Shield",
 			"source": "DDFateWeaver",
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver",
@@ -1991,7 +2078,7 @@
 				"Whenever you give a creature a Boon of Fate, they also gain {@variantrule Temporary Hit Points|XPHB} equal to 5 times the level of the spell slot expended."
 			]
 		},
-		{"name": "Defiant Level 10",
+		{"name": "Deny Death",
 			"source": "DDFateWeaver",
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver",
@@ -2002,7 +2089,7 @@
 				"Whenever you or a creature within 30 feet of you is reduced to 0 {@variantrule Hit Points|XPHB}, you can expend 1 Fate Die (no action required) to cause them to drop to 1 {@variantrule Hit Points|XPHB|Hit Point} instead."
 			]
 		},
-		{"name": "Defiant Level 14",
+		{"name": "Mind of Steel",
 			"source": "DDFateWeaver",
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver",
@@ -2010,10 +2097,10 @@
 			"subclassSource": "DDFateWeaver",
 			"level": 14,
 			"entries": [
-				"WIP."
+				"Your path is your own, no force can cause you to stray from it. You have {@variantrule Immunity|XPHB} to the {@condition Charmed|XPHB} and {@condition Frightened|XPHB} conditions. In addition, as an {@variantrule Action|XPHB} you can touch a creature and remove the {@condition Charmed|XPHB} or {@condition Frightened|XPHB} condition from them."
 			]
 		},
-		{"name": "Unstoppable Force",
+		{"name": "Defiant Level 18",
 			"source": "DDFateWeaver",
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver",
@@ -2021,33 +2108,7 @@
 			"subclassSource": "DDFateWeaver",
 			"level": 18,
 			"entries": [
-				"Even when the odds are stacked against you. When you fail a {@variantrule D20 Test|XPHB}, you can succeed instead by choosing one of the following options.",
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Tear Threads.",
-							"entries": [
-								"Expend 5 Fate Dice."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Bleed.",
-							"entries": [
-								"Take 10d6 Necrotic damage, which can't be reduced in any way."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Give Everything.",
-							"entries": [
-								"Permanently reduce your Constitution score by 2 points. Nothing can restore these lost points."
-							]
-						}
-					]
-				}
+				"WIP."
 			]
 		}
 	],
