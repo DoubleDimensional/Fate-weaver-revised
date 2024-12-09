@@ -842,8 +842,6 @@
 				"Speak with Animals|XPHB",
 				"Speak with Dead",
 				"Speak with Dead|XPHB",
-				"Spirit Guardians",
-				"Spirit Guardians|XPHB",
 				"Spirit Shroud|TCE",
 				"Spiritual Weapon",
 				"Spiritual Weapon|XPHB",
@@ -1031,7 +1029,7 @@
 			"classSource": "DDFateWeaver",
 			"level": 2,
 			"entries": [
-				"Your mere existence in the world makes reality malleable, and with your guidance, others around you can bend their own fate. As a Magic action, you can expend a level 1+ spell slot to give a Boon of Fate to a creature within 5 feet of yourself. Only one creature at a time can have your Boon of Fate.",
+				"Your mere existence in the world makes reality malleable, and with your guidance, anyone can bend their own fate. As a Magic action, you can expend a level 1+ spell slot to give a Boon of Fate to a creature within 5 feet of yourself. Only one creature at a time can have your Boon of Fate.",
 				"Once within the next hour when the creature fails a {@variantrule D20 Test|XPHB}, the creature can dismiss the Boon of Fate to reroll the test, potentially turning the failure into a success."
 			]
 		},
@@ -1283,7 +1281,7 @@
 			],
 			"subclassFeatures": [
 				"Aspect of the Oracle|Fate Weaver|DDFateWeaver|Oracle|DDFateWeaver|3",
-				"Shared Insight|Fate Weaver|DDFateWeaver|Oracle|DDFateWeaver|6",
+				"Prophetic Power|Fate Weaver|DDFateWeaver|Oracle|DDFateWeaver|6",
 				"Seer's Stitchwork|Fate Weaver|DDFateWeaver|Oracle|DDFateWeaver|10",
 				"Precognitive Reflex|Fate Weaver|DDFateWeaver|Oracle|DDFateWeaver|14",
 				"Paragon of Prophecy|Fate Weaver|DDFateWeaver|Oracle|DDFateWeaver|18"
@@ -1607,7 +1605,7 @@
 				}
 			]
 		},
-		{"name": "Shared Insight",
+		{"name": "Prophetic Power",
 			"source": "DDFateWeaver",
 			"className": "Fate Weaver",
 			"classSource": "DDFateWeaver",
@@ -1615,7 +1613,7 @@
 			"subclassSource": "DDFateWeaver",
 			"level": 6,
 			"entries": [
-				"You can share a fraction of your view into the future with those touched by your magic. Whenever a creature uses your Boon of Fate to reroll a failed {@variantrule D20 Test|XPHB}, they gain a bonus to the roll equal to your {@table Proficiency Bonus|XPHB}."
+				"Your gift of prophecy bleeds through into those gifted with your boon. When you give a creature your Boon of Fate, they gain a bonus to the to reroll equal to the level of the spell slot expended."
 			]
 		},
 		{"name": "Seer's Stitchwork",
