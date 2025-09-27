@@ -1103,7 +1103,7 @@
 			"classSource": "DDFateWeaver",
 			"level": 7,
 			"entries": [
-				"By subtly rearranging the threads you hold, you can adapt to unanticipated situations. Whenever you finish a {@variantrule Short Rest|XPHB}, you can replace one of the level 1+ Fate Weaver spells you have prepared for your Spellcasting feature with another level 1+ spell from the {@filter Fate Weaver spell list|spells|class=Fate Weaver (FW:R)}."
+				"You can subtly rearrange the threads you hold to adapt to unanticipated situations. As a Magic action, you can expend 1 Fate Die to replace one of the level 1+ Fate Weaver spells you have prepared for your Spellcasting feature with another level 1+ spell from the {@filter Fate Weaver spell list|spells|class=Fate Weaver (FW:R)}."
 			]
 		},
 		{"name": "Ability Score Improvement",
@@ -2095,7 +2095,7 @@
 			"subclassSource": "DDFateWeaver",
 			"level": 14,
 			"entries": [
-				"Your path is your own, no force can cause you to stray from it. You have {@variantrule Immunity|XPHB} to the {@condition Charmed|XPHB} and {@condition Frightened|XPHB} conditions. In addition, as an {@variantrule Action|XPHB} you can touch a creature and remove the {@condition Charmed|XPHB} or {@condition Frightened|XPHB} condition from them."
+				"Your path is your own, no force can cause you to stray from it. You have {@variantrule Immunity|XPHB} to the {@condition Charmed|XPHB} and {@condition Frightened|XPHB} conditions. In addition, as an {@variantrule Action|XPHB} you can touch another creature and remove the {@condition Charmed|XPHB} or {@condition Frightened|XPHB} condition from them."
 			]
 		},
 		{"name": "Defiant Level 18",
